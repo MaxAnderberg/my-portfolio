@@ -6,7 +6,6 @@ import Seo from "../components/seo"
 
 const Portfolio = ({data}) => {
   const nodes = data.allContentfulProject.edges
-  console.log(nodes)
   return (
     <Layout>
       <Seo title="Portfolio" />
