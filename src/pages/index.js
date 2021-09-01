@@ -11,10 +11,6 @@ const IndexPage = () => (
     <Seo title="Home" />
     <h1>Hi Folks</h1>
     <p>Welcome to your new Gatsby site.</p>
-    <p>
-      <Link to="/about">Go to About page</Link> <br />
-      <Link to="/portfolio">Go to Portfolio page</Link> <br />
-    </p>
   </Layout>
 )
 
