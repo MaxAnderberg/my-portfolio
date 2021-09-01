@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav>
       <Hamburger isOpen={isOpen} setOpen={setOpen}/>
-      <NavLinks />
+      {isOpen ? <NavLinks /> : ''}
     </nav>
   )
 }
