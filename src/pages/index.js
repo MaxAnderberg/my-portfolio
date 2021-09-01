@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import Hamburger from '../components/Hamburger/Hamburger';
 import Layout from "../components/layout"
