@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import './hamburger.css';
 
-const Hamburger = () => {
-  const [isOpen, setOpen] = useState(false);
+const Hamburger = ({ isOpen, setOpen}) => {
   const handleOpenBurgerMenu = () => isOpen ? setOpen(false) : setOpen(true);
   
   return (
