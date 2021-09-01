@@ -1,0 +1,53 @@
+.menu-btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  /* transition: all .5 ease-in-out; */
+  transition: 1;
+  border: 3px solid black;
+}
+
+.menu-btn__hamburger {
+  width: 50px;
+  height: 6px;
+  border-radius: 6px;
+  transition: 1;
+  background-color: black;
+}
+
+.menu-btn__hamburger::before, .menu-btn__hamburger::after {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 6px;
+  border-radius: 6px;
+  background-color: black;
+  transition: 1;
+}
+
+.menu-btn__hamburger::before {
+  transform: translateY(-16px);
+}
+
+.menu-btn__hamburger::after {
+  transform: translateY(16px);
+}
+
+/* Hamburger animation */
+
+.menu-btn.open .menu-btn__hamburger {
+  transform: translateX(-50px);
+  background: transparent;
+}
+
+.menu-btn.open .menu-btn__hamburger::before {
+  transform: rotate(45deg) translate(35px, -35px);
+}
+
+.menu-btn.open .menu-btn__hamburger::after {
+  transform: rotate(-45deg) translate(35px, 35px);
+}
