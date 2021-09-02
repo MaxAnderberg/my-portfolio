@@ -1,0 +1,38 @@
+.diagonal-box {
+  position: fixed;
+  background-color: rgba(#000, .56);
+  height: 80vh;
+  width: 80vh;
+  transform: rotate(75deg) translate(20rem, 10rem);
+}
+
+.image {
+  transform: translateX(300px);
+  position: fixed;
+  background-repeat:no-repeat;
+  margin: auto;
+  left: 0;
+  transform: scale(1.7);
+  z-index: -1;
+}
+
+.bio-intro {
+  letter-spacing: 3px;
+  color: white;
+  bottom: 0;
+  margin-bottom: 1rem;
+  position: absolute;
+  z-index: 1;
+  &__greeting {
+    margin: 0;
+    font-size: 14px;
+  }
+  &__name {
+    margin: 0;
+
+  }
+  &__title {
+    margin: 0;
+    font-size: 12px;
+  }
+}

@@ -1,22 +1,30 @@
 .navlinks-container {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  
 }
 
 .navlink{
-  margin-top: 1rem;
-  margin-bottom: 1rem;
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 0.3rem;
   font-size: 1.5rem;
-
+  padding: 3%;
+  margin: 0;
   &:visited {
     color: #fff;
+  }
+  &:first-child{
+    margin-top: 1rem;
   }
 }
 
 .navlink.active {
-  text-decoration: underline;
+  background-color: white;
+  color: black;
+  width: 100%;
+  margin: 0;
+
 }
