@@ -1,8 +1,12 @@
 .navlinks-container {
-  position: absolute;
-  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .navlink{
   margin-left: 1rem;
+  text-decoration: none;
+  &:visited {
+    color: #fff;
+  }
 }
