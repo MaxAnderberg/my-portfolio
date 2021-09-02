@@ -1,5 +1,5 @@
 .dropdown {
-  transition: all 0.3s ease-in-out;
+  transition: all 0.25s ease-out;
   display: flex;
   justify-content: center;
   position: absolute;
@@ -11,6 +11,6 @@
 
 .hide {
   visibility: hidden;
-  transform: translateY(-50px);
+  transform: translateY(-100px);
   opacity: 0;
 }
