@@ -2,9 +2,9 @@ import React from 'react';
 import NavLinks from '../NavLinks';
 import './DropdownMenu.scss';
 
-const DropdownMenu = () => {
+const DropdownMenu = ({ isOpen }) => {
   return (
-    <div className="dropdown">
+    <div className={`dropdown ${isOpen ? '' : 'hide'}`}>
       <NavLinks />
     </div>
   )

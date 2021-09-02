@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import DrowdownMenu from './DropdownMenu/DropdownMenu';
+import DropdownMenu from './DropdownMenu/DropdownMenu';
 import Hamburger from '../Hamburger/Hamburger';
 const Navbar = () => {
 
@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav>
       <Hamburger isOpen={isOpen} setOpen={setOpen}/>
-      {isOpen ? <DrowdownMenu /> : ''}
+      <DropdownMenu isOpen={isOpen}/>
     </nav>
   )
 }
