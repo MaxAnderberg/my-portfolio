@@ -1,3 +1,4 @@
+import React from 'react';
 import './hamburger.scss';
 
 const Hamburger = ({ isOpen, setOpen}) => {
