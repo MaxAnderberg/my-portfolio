@@ -1,14 +1,17 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import Navbar from './Navigation/Navbar';
 
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `gray`,
       marginBottom: `1.45rem`,
     }}
   >
+    <Navbar />
+
     <div
       style={{
         margin: `0 auto`,
@@ -24,7 +27,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          {siteTitle} {/**THIS IS THE TITLE SOME HOW */}
         </Link>
       </h1>
     </div>

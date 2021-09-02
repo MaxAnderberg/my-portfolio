@@ -1,52 +1,50 @@
 .menu-btn {
-  position: relative;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
   width: 80px;
-  height: 80px;
+  height: 20px;
+  margin-top: 1rem;
   cursor: pointer;
   /* transition: all .5 ease-in-out; */
-  -webkit-transition: all 0.35s ease;  
-  -moz-transition: all 0.35s ease;  
-  -o-transition: all 0.35s ease;  
-  -ms-transition: all 0.35s ease;  
-  transition: all 0.35s ease;
-  border: 3px solid black;
+  -webkit-transition: all 0.35s ease-in-out;  
+  -moz-transition: all 0.35s ease-in-out;  
+  -o-transition: all 0.35s ease-in-out;  
+  -ms-transition: all 0.35s ease-in-out;  
+  transition: all 0.35s ease-in-out;
+  float: right;
 }
-
 .menu-btn__hamburger {
-  width: 50px;
-  height: 6px;
+  width: 30px;
+  height: 3px;
   border-radius: 6px;
-  -webkit-transition: all 0.35s ease;  
-  -moz-transition: all 0.35s ease;  
-  -o-transition: all 0.35s ease;  
-  -ms-transition: all 0.35s ease;  
-  transition: all 0.35s ease;
+  -webkit-transition: all 0.35s ease-in-out;  
+  -moz-transition: all 0.35s ease-in-out;  
+  -o-transition: all 0.35s ease-in-out;  
+  -ms-transition: all 0.35s ease-in-out;  
+  transition: all 0.35s ease-in-out;
   background-color: black;
 }
 
 .menu-btn__hamburger::before, .menu-btn__hamburger::after {
   content: '';
   position: absolute;
-  width: 50px;
-  height: 6px;
+  width: 30px;
+  height: 3px;
   border-radius: 6px;
   background-color: black;
-  -webkit-transition: all 0.35s ease;  
-  -moz-transition: all 0.35s ease;
-  -o-transition: all 0.35s ease;  
-  -ms-transition: all 0.35s ease;  
-  transition: all 0.35s ease;
+  -webkit-transition: all 0.35s ease-in-out;  
+  -moz-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;  
+  -ms-transition: all 0.35s ease-in-out;  
+  transition: all 0.35s ease-in-out;
 }
 
 .menu-btn__hamburger::before {
-  transform: translateY(-16px);
+  transform: translateY(-7px);
 }
 
 .menu-btn__hamburger::after {
-  transform: translateY(16px);
+  transform: translateY(7px);
 }
 
 /* Hamburger animation */
