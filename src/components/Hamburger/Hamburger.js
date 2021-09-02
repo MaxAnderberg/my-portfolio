@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './hamburger.css';
+import './hamburger.scss';
 
 const Hamburger = ({ isOpen, setOpen}) => {
   const handleOpenBurgerMenu = () => isOpen ? setOpen(false) : setOpen(true);

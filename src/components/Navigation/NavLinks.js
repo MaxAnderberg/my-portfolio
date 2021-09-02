@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "gatsby";
-import './NavLinks.css';
+import './NavLinks.scss';
 
 const NavLinks = () => {
   return (
