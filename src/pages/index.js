@@ -8,7 +8,7 @@ import './index.scss';
 const IndexPage = () => (
   <Layout>
     <div className='test'>
-      <StaticImage src='../images/IMG_4101.jpeg' className='image'/>
+      <StaticImage src='../images/IMG_4101.jpeg' className='image' imgClassName='zoom-in-zoom-out'/>
       <div className='bio-intro'>
         <h3 className='bio-intro__greeting'>Hi, I'm</h3>
         <h2 className='bio-intro__name'>Max Anderberg</h2>
