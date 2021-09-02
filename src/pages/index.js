@@ -13,6 +13,10 @@ const IndexPage = () => (
         <h3 className='bio-intro__greeting'>Hi, I'm</h3>
         <h2 className='bio-intro__name'>Max Anderberg</h2>
         <h4 className='bio-intro__title'>Fullstack JavaScript Developer</h4>
+        <div className='bio-intro__icons-container'>
+          <a href="https://github.com/MaxAnderberg"><StaticImage className='icon' src='../icons/github-128.png'/></a>
+          <a href="https://linkedin.com/in/maxanderberg"><StaticImage className='icon' src='../icons/linkedin-128.png'/></a>
+        </div>
       </div>
     <div className='diagonal-box'></div>
     </div>

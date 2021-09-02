@@ -16,6 +16,15 @@
   z-index: -1;
 }
 
+.icon {
+  width: 35px;
+  height: 35px;
+  background-repeat:no-repeat;
+  &:first-child {
+    margin-bottom: 80%;
+  }
+}
+
 .bio-intro {
   letter-spacing: 3px;
   color: white;
@@ -34,5 +43,13 @@
   &__title {
     margin: 0;
     font-size: 12px;
+  }
+  &__icons-container {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    bottom: 10%;
+    right: 0;
+    margin-right: 5%;
   }
 }
