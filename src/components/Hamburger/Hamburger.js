@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import './hamburger.scss';
 
 const Hamburger = ({ isOpen, setOpen}) => {
