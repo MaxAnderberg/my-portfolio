@@ -1,20 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,html {
+  height: 100%;
+}
+
 .diagonal-box {
   position: fixed;
   background-color: rgba(#000, .56);
-  height: 80vh;
-  width: 80vh;
-  transform: rotate(75deg) translate(20rem, 10rem);
+  height: 40vh;
+  width: 200vw;
+  transform: rotate(-10deg);
+  bottom: 0;
+  margin-left: -10%;
+  margin-bottom: -10vh;
 }
 
 .image {
-  transform: translateX(300px);
-  position: fixed;
-  background-repeat:no-repeat;
-  margin: auto;
-  left: 0;
-  transform: scale(1.7);
-  z-index: -1;
+  overflow: hidden;
+  max-height: 1027px;
+}
 
+.test {
+  height: 100vh;
 }
 
 .icon {
@@ -29,33 +40,41 @@
 .bio-intro {
   letter-spacing: 3px;
   color: white;
-  bottom: 0;
-  margin-bottom: 1rem;
-  position: absolute;
   z-index: 1;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 8vh;
+  margin-left: 10vw;
   &__greeting {
     margin: 0;
-    font-size: 14px;
+    font-size: 1rem;
   }
   &__name {
     margin: 0;
-
+    font-size: 1.5rem;
   }
   &__title {
     margin: 0;
-    font-size: 12px;
+    font-size: 0.7rem;
   }
   &__icons-container {
     position: fixed;
     display: flex;
     flex-direction: column;
-    bottom: 10%;
+    bottom: 0%;
     right: 0;
     margin-right: 5%;
   }
 }
+
 .zoom-in-zoom-out {
   animation: zoom-in-zoom-out 200s ease-out infinite;
+}
+
+.testImg {
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -2;
 }
 
 @keyframes zoom-in-zoom-out {
