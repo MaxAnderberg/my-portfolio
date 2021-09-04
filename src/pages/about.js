@@ -85,12 +85,20 @@ const About = () => (
             </div>
             <div className='item'>
               <StaticImage src='../images/heroku.png' className='image'/>
-              <p className='item__title'>Serverless</p>
+              <p className='item__title'>Heroku</p>
             </div>
         
             <div className='item'>
               <StaticImage src='../images/agile.png' className='image'/>
               <p className='item__title'>Agile</p>
+            </div>
+            <div className='item'>
+              <StaticImage src='../images/TDD.png' className='image'/>
+              <p className='item__title'>TDD</p>
+            </div>
+            <div className='item'>
+              <StaticImage src='../images/netlify.png' className='image'/>
+              <p className='item__title'>Netlify</p>
             </div>
           </div>
         </section>
