@@ -19,27 +19,27 @@ const About = () => (
         <section>
           <h2>Frontend</h2>
           <div className='skills'>
-            <div>
+            <div className='item'>
               <StaticImage src='../images/javascript.png' className='image'/>
               <p>Javascript</p>
             </div>
-            <div>
+            <div className='item'>
               <StaticImage src='../images/react.png' className='image'/>
               <p>React</p>
             </div>
-            <div>
+            <div className='item'>
               <StaticImage src='../images/gatsbyjs.png' className='image'/>
               <p>Gatsby</p>
             </div>
-            <div>
+            <div className='item'>
               <StaticImage src='../images/redux.png' className='image'/>
               <p>Redux</p>
             </div>
-            <div>
+            <div className='item'>
               <StaticImage src='../images/html5.png' className='image'/>
               <p>HTML</p>
             </div>
-            <div>
+            <div className='item'>
               <StaticImage src='../images/css3.png' className='image'/>
               <p>CSS</p>
             </div>
@@ -49,23 +49,23 @@ const About = () => (
         <section>
           <h2>Backend</h2>
           <div className='skills'>
-            <div>
+            <div className='item'>
               <StaticImage src='../images/nodejs.png' className='image'/>
               <p>NodeJS</p>
             </div>
-            <div>
+            <div className='item'>
               <StaticImage src='../images/mongodb.png' className='image'/>
               <p>MongoDB</p>
             </div>
-            <div>
+            <div className='item'>
               <StaticImage src='../images/postgresql.png' className='image'/>
               <p>Postgres</p>
             </div>
-            <div>
+            <div className='item'>
               <StaticImage src='../images/graphql.png' className='image'/>
               <p>GraphQL</p>
             </div>
-            <div>
+            <div className='item'>
               <StaticImage src='../images/graphql.png' className='image'/>
               <p>Express</p>
             </div>
@@ -73,6 +73,21 @@ const About = () => (
         </section>
         <section>
           <h2>Tools</h2>
+          <div className='skills'>
+            <div className='item'>
+              <StaticImage src='../images/serverless.png' className='image'/>
+              <p>Serverless</p>
+            </div>
+            <div className='item'>
+              <StaticImage src='../images/heroku.png' className='image'/>
+              <p>Serverless</p>
+            </div>
+        
+            <div className='item'>
+              <StaticImage src='../images/agile.png' className='image'/>
+              <p>Agile</p>
+            </div>
+          </div>
         </section>
       </section>
 

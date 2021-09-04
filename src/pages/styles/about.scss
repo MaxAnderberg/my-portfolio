@@ -17,4 +17,9 @@
 .skills {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.item{
+  padding: 5%;
 }
