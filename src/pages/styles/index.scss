@@ -8,83 +8,95 @@ body,html {
   height: 100%;
 }
 
-.diagonal-box {
-  position: fixed;
-  background-color: rgba(#000, .56);
-  height: 40vh;
-  width: 200vw;
-  transform: rotate(-10deg);
-  bottom: 0;
-  margin-left: -10%;
-  margin-bottom: -10vh;
-}
-
-.image {
-  overflow: hidden;
-  max-height: 1027px;
-}
-
-.test {
-  height: 100vh;
-}
-
 .icon {
-  width: 35px;
-  height: 35px;
-  background-repeat:no-repeat;
-  &:first-child {
-    margin-bottom: 80%;
-  }
+  width: 55px;
+  height: 55px;
 }
 
 .bio-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   letter-spacing: 3px;
   color: white;
-  z-index: 1;
-  position: fixed;
-  bottom: 0;
-  margin-bottom: 8vh;
-  margin-left: 10vw;
   &__greeting {
     margin: 0;
-    font-size: 1rem;
+    font-size: 2.5rem;
+    margin-bottom: 5%;
   }
   &__name {
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    margin-bottom: 5%;
   }
   &__title {
     margin: 0;
-    font-size: 0.7rem;
+    font-size: 1rem;
+    margin-bottom: 5%;
   }
   &__icons-container {
-    position: fixed;
     display: flex;
-    flex-direction: column;
-    bottom: 0%;
-    right: 0;
-    margin-right: 5%;
+    justify-content: center;
+    align-items: flex-start;
   }
 }
 
-.zoom-in-zoom-out {
-  animation: zoom-in-zoom-out 200s ease-out infinite;
+.item-c {
+  display: flex;
+  grid-row-start: 2;
+  justify-content: center;
+  align-items: center;
 }
 
-.testImg {
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -2;
+.item-d {
+  grid-row-start: 3;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.slideshow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto 0;
+  max-width: 100px;
+  max-height: 100px;
+  overflow: hidden;
+}
+
+.slideshowSlider {
+  white-space: nowrap;
+  transition: ease 1000ms;
+}
+
+.slide {
+  display: inline-block;
+  width: 100%;
+  border-radius: 40px;
+  margin: auto 0;
+
+}
+
+.homepage-container {
+  height:90vh;
+  background-color: black;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 0.4fr;
+  overflow: hidden;
 }
 
 @keyframes zoom-in-zoom-out {
   0% {
   transform: scale(1, 1);
-  }
+    }
   50% {
   transform: scale(1.3, 1.5);
-  }
+    }
   100% {
   transform: scale(1, 1);
-  }
+    }
   }

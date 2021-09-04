@@ -2,19 +2,14 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  z-index: 10;
-
-  
 }
 
 .navlink{
   text-decoration: none;
-  z-index: 10;
-
   text-transform: uppercase;
   text-align: center;
-  letter-spacing: 0.3rem;
-  font-size: 1.5rem;
+  letter-spacing: .2rem;
+  font-size: 1.2rem;
   padding: 3%;
   margin: 0;
   &:visited {
@@ -30,5 +25,4 @@
   color: black;
   width: 100%;
   margin: 0;
-
 }
