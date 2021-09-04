@@ -1,0 +1,15 @@
+.about-container {
+  background-color: black;
+  color: white;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  padding: 5%;
+  flex-direction: column;
+  overflow: auto;
+  text-align: center;
+}
+
+.image {
+  width: 50px;
+}
