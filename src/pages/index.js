@@ -45,9 +45,9 @@ const IndexPage = () => {
         </div>
 
         <div className='bio-intro__icons-container item-d'>
-            <a href="https://github.com/MaxAnderberg"><StaticImage className='icon' src='../icons/github-128.png'/></a>
-            <a href="https://linkedin.com/in/maxanderberg"><StaticImage className='icon' src='../icons/linkedin-128.png'/></a>
-          </div>
+          <a href="https://github.com/MaxAnderberg"><StaticImage className='icon' src='../icons/github-128.png'/></a>
+          <a href="https://linkedin.com/in/maxanderberg"><StaticImage className='icon' src='../icons/linkedin-128.png'/></a>
+        </div>
     </div>
     <Seo title="Home" />
   </Layout>
