@@ -18,10 +18,58 @@ const About = () => (
         <h2>Skills</h2>
         <section>
           <h2>Frontend</h2>
-          <StaticImage src='../images/javascript.png' className='image'/>
+          <div className='skills'>
+            <div>
+              <StaticImage src='../images/javascript.png' className='image'/>
+              <p>Javascript</p>
+            </div>
+            <div>
+              <StaticImage src='../images/react.png' className='image'/>
+              <p>React</p>
+            </div>
+            <div>
+              <StaticImage src='../images/gatsbyjs.png' className='image'/>
+              <p>Gatsby</p>
+            </div>
+            <div>
+              <StaticImage src='../images/redux.png' className='image'/>
+              <p>Redux</p>
+            </div>
+            <div>
+              <StaticImage src='../images/html5.png' className='image'/>
+              <p>HTML</p>
+            </div>
+            <div>
+              <StaticImage src='../images/css3.png' className='image'/>
+              <p>CSS</p>
+            </div>
+          </div>
+
         </section>
         <section>
           <h2>Backend</h2>
+          <div className='skills'>
+            <div>
+              <StaticImage src='../images/nodejs.png' className='image'/>
+              <p>NodeJS</p>
+            </div>
+            <div>
+              <StaticImage src='../images/mongodb.png' className='image'/>
+              <p>MongoDB</p>
+            </div>
+            <div>
+              <StaticImage src='../images/postgresql.png' className='image'/>
+              <p>Postgres</p>
+            </div>
+            <div>
+              <StaticImage src='../images/graphql.png' className='image'/>
+              <p>GraphQL</p>
+            </div>
+            <div>
+              <StaticImage src='../images/graphql.png' className='image'/>
+              <p>Express</p>
+            </div>
+          </div>
         </section>
         <section>
           <h2>Tools</h2>
