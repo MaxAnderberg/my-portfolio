@@ -100,6 +100,14 @@ const About = () => (
               <StaticImage src='../images/netlify.png' className='image'/>
               <p className='item__title'>Netlify</p>
             </div>
+            <div className='item'>
+              <StaticImage src='../images/mocha.png' className='image'/>
+              <p className='item__title'>Mocha</p>
+            </div>
+            <div className='item'>
+              <StaticImage src='../images/jest.png' className='image'/>
+              <p className='item__title'>Mocha</p>
+            </div>
           </div>
         </section>
       </section>
