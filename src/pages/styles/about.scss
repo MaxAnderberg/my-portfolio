@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
 .about-container {
   background-color: black;
   color: white;
@@ -8,10 +10,26 @@
   flex-direction: column;
   overflow: auto;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 .image {
   width: 50px;
+}
+
+.knowledge {
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: underline;
+  &__category {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+}
+.express-icon {
+  background-color: white;
 }
 
 .skills {
@@ -22,4 +40,8 @@
 
 .item{
   padding: 5%;
+  &__title {
+    font-weight: 700;
+    font-size: 0.8rem;
+  }
 }

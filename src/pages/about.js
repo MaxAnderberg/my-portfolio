@@ -15,77 +15,77 @@ const About = () => (
         I got my first job in September 2017 at Baltic Spot as a computational Linguistic, and they were a software company in the maritime business.
       </p>
       <section>
-        <h2>Skills</h2>
+        <h2 className='knowledge'>Skills</h2>
         <section>
-          <h2>Frontend</h2>
+          <h2 className='knowledge__category'>Frontend</h2>
           <div className='skills'>
             <div className='item'>
               <StaticImage src='../images/javascript.png' className='image'/>
-              <p>Javascript</p>
+              <p className='item__title'>Javascript</p>
             </div>
             <div className='item'>
               <StaticImage src='../images/react.png' className='image'/>
-              <p>React</p>
+              <p className='item__title'>React</p>
             </div>
             <div className='item'>
               <StaticImage src='../images/gatsbyjs.png' className='image'/>
-              <p>Gatsby</p>
+              <p className='item__title'>Gatsby</p>
             </div>
             <div className='item'>
               <StaticImage src='../images/redux.png' className='image'/>
-              <p>Redux</p>
+              <p className='item__title'>Redux</p>
             </div>
             <div className='item'>
               <StaticImage src='../images/html5.png' className='image'/>
-              <p>HTML</p>
+              <p className='item__title'>HTML</p>
             </div>
             <div className='item'>
               <StaticImage src='../images/css3.png' className='image'/>
-              <p>CSS</p>
+              <p className='item__title'>CSS</p>
             </div>
           </div>
 
         </section>
         <section>
-          <h2>Backend</h2>
+          <h2 className='knowledge__category'>Backend</h2>
           <div className='skills'>
             <div className='item'>
               <StaticImage src='../images/nodejs.png' className='image'/>
-              <p>NodeJS</p>
+              <p className='item__title'>NodeJS</p>
             </div>
             <div className='item'>
               <StaticImage src='../images/mongodb.png' className='image'/>
-              <p>MongoDB</p>
+              <p className='item__title'>MongoDB</p>
             </div>
             <div className='item'>
               <StaticImage src='../images/postgresql.png' className='image'/>
-              <p>Postgres</p>
+              <p className='item__title'>Postgres</p>
             </div>
             <div className='item'>
               <StaticImage src='../images/graphql.png' className='image'/>
-              <p>GraphQL</p>
+              <p className='item__title'>GraphQL</p>
             </div>
             <div className='item'>
-              <StaticImage src='../images/graphql.png' className='image'/>
-              <p>Express</p>
+              <StaticImage src='../images/express.png' className='image express-icon'/>
+              <p className='item__title'>Express</p>
             </div>
           </div>
         </section>
         <section>
-          <h2>Tools</h2>
+          <h2 className='knowledge__category'>Tools</h2>
           <div className='skills'>
             <div className='item'>
               <StaticImage src='../images/serverless.png' className='image'/>
-              <p>Serverless</p>
+              <p className='item__title'>Serverless</p>
             </div>
             <div className='item'>
               <StaticImage src='../images/heroku.png' className='image'/>
-              <p>Serverless</p>
+              <p className='item__title'>Serverless</p>
             </div>
         
             <div className='item'>
               <StaticImage src='../images/agile.png' className='image'/>
-              <p>Agile</p>
+              <p className='item__title'>Agile</p>
             </div>
           </div>
         </section>
