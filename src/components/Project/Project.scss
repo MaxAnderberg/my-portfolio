@@ -1,15 +1,14 @@
 .card {
   display: flex;
   flex-direction: column;
+  background-color: #343434;
+  color: white;
   margin-bottom: 5%;
-  border-radius: 9px;
   align-self: center;
   justify-content: center;
   text-align: center;
-  display: flex;
   justify-content: center;
-  color: white;
-  box-shadow: rgba(255, 255, 255, 1) 0px 1px 3px, rgba(255, 255, 255, 0.44) 0px 1px 2px;
+  box-shadow:  rgba(0, 0, 0, 0.9) 0px 5px 7px;
   
   &__info-container {
     display: flex;
@@ -29,8 +28,6 @@
   }
   &__image {
     width: 100%;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
     margin-bottom: 0;
   }
 
@@ -67,17 +64,19 @@
 //   margin: 2%;
 // }
 .tag {
-  background: #eee;
+  background-color: crimson;
+  color: white;
   border-radius: 3px 0 0 3px;
-  color: #999;
   display: inline-block;
   height: 26px;
   line-height: 26px;
+  font-weight: 700;
   padding: 0 20px 0 23px;
   position: relative;
   margin: 0 10px 10px 0;
   text-decoration: none;
   -webkit-transition: color 0.2s;
+  border-radius: 5px;
 }
 
 .tag::before {
@@ -92,16 +91,6 @@
   top: 10px;
 }
 
-.tag:hover {
-  background-color: crimson;
-  color: white;
-}
-
-.tag:hover::after {
-   border-left-color: crimson; 
-}
-
-
 .link-container {
   display: flex;
   justify-content: center;
@@ -113,7 +102,7 @@
   padding: 2%;
   color: white;
   margin: 2%;
-  box-shadow: rgba(255, 255, 255, 0.35) 0px 3px 3px 0px;
+  box-shadow:  rgba(0, 0, 0, 0.9) 0px 5px 7px;
 
   &:hover{
     background-color: purple;
