@@ -15,8 +15,8 @@
 }
 
 .menu-btn__hamburger {
-  width: 30px;
-  height: 3px;
+  width: 33px;
+  height: 4px;
   border-radius: 6px;
   -webkit-transition: all 0.35s ease-in-out;  
   -moz-transition: all 0.35s ease-in-out;  
@@ -29,8 +29,8 @@
 .menu-btn__hamburger::before, .menu-btn__hamburger::after {
   content: '';
   position: absolute;
-  width: 30px;
-  height: 3px;
+  width: 33px;
+  height: 4px;
   border-radius: 6px;
   background-color: #fff;
   -webkit-transition: all 0.35s ease-in-out;  
@@ -41,11 +41,11 @@
 }
 
 .menu-btn__hamburger::before {
-  transform: translateY(-7px);
+  transform: translateY(-9px);
 }
 
 .menu-btn__hamburger::after {
-  transform: translateY(7px);
+  transform: translateY(9px);
 }
 
 /* Hamburger animation */

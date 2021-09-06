@@ -8,8 +8,11 @@ const Navbar = () => {
 
   return (
     <nav className='navbar-container'>
-      <Hamburger isOpen={isOpen} setOpen={setOpen}/>
-      <DropdownMenu isOpen={isOpen}/>
+      <div>
+        <Hamburger isOpen={isOpen} setOpen={setOpen}/>
+        <DropdownMenu isOpen={isOpen}/>
+      </div>
+
     </nav>
   )
 }
