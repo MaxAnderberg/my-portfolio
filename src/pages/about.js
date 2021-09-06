@@ -9,7 +9,6 @@ const About = () => (
   <Layout>
     <Seo title="About" />
     <div className='about-container'>
-    <StaticImage className='profile-image' src='../images/profile-image.png'/>
 
       <h1>Hello There!</h1>
       <p> <span className='dropcap'>M</span>y journey starts In 2014 when I started the bachelor programme Computational linguistics at Uppsala University. I started programming in python, and during my last year I pursued more programming courses like: 
