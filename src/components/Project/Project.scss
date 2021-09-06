@@ -3,7 +3,7 @@
   flex-direction: column;
   background-color: #343434;
   color: white;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   align-self: center;
   justify-content: center;
   text-align: center;
@@ -104,6 +104,20 @@
 .link__image {
   width: 20%;
 }
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
+}
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
 
 @media only screen and (min-width: 1024px) {
   .card {

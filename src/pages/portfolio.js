@@ -1,4 +1,4 @@
-import * as React from "react"
+import React from 'react';
 import { graphql, Link } from "gatsby"
 import Project from '../components/Project/Project'
 import Layout from "../components/layout"
@@ -7,6 +7,7 @@ import './styles/portfolio.scss';
 
 const Portfolio = ({data}) => {
   const nodes = data.allContentfulProject.edges
+
   return (
     <Layout>
       <Seo title="Portfolio" />

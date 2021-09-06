@@ -1,12 +1,24 @@
-import React from 'react';
+import React, { useState, useRef, useEffect} from 'react';
 import './Project.scss';
 import { StaticImage } from "gatsby-plugin-image";
 
 const Project = ( props ) => {
   const {description, image, title, tags, githubLink, deploymentLink} = props;
   const parsedTags = tags.split(' ').filter(i => i);
+ 
+  const [isVisible, setVisible] = useState(true);
+  const domRef = useRef();
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => setVisible(entry.isIntersecting));
+    });
+    observer.observe(domRef.current);
+    return () => observer.unobserve(domRef.current);
+  }, []);
+
   return (
-    <article className='card'>
+    <article className={`card fade-in-section ${isVisible ? 'is-visible' : ''}`} ref={domRef}>
       <section className='card__image-container'>
         <img className='card__image' src={image}/>
       </section>
