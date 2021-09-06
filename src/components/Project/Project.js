@@ -1,5 +1,6 @@
 import React from 'react';
 import './Project.scss';
+import { StaticImage } from "gatsby-plugin-image";
 
 const Project = ( props ) => {
   const {description, image, title, tags, githubLink, deploymentLink} = props;
@@ -22,8 +23,8 @@ const Project = ( props ) => {
         </section>
       </section>
       <section className='link-container'>
-        <a className='link__project' href={deploymentLink} >Demo</a>
-        <a className='link__project' href={githubLink} >Code</a>
+        <a className='link__project' href={deploymentLink} > <StaticImage className='link__image' src='../../images/globe.png'/>Demo</a>
+        <a className='link__project' href={githubLink} ><StaticImage className='link__image' src='../../images/coding.png'/> Code</a>
       </section>
     </article>
   )
