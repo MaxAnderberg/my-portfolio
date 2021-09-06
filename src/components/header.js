@@ -3,9 +3,7 @@ import Navbar from './Navigation/Navbar';
 import './Header.scss';
 const Header = () => (
   <header className='header'>
-    <div>
     <Navbar />
-    </div>
   </header>
 )
 

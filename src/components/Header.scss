@@ -1,4 +1,13 @@
 .header {
-  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 8vh;
+  max-height: 50px;
   background-color: #000;
+}
+.header-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
 }
