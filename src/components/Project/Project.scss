@@ -1,43 +1,76 @@
 .card {
   display: flex;
   flex-direction: column;
-  background-color: red;
   margin-bottom: 5%;
   border-radius: 13px;
   align-self: center;
   justify-content: center;
-  &__title {
-    display: flex;
-    justify-content: center;
-  }
+  padding: 5%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  color: black;
+  
   &__info-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
   }
+  &__title{
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-bottom: 2%;
+  }
   &__image {
-    width: 80%;
+    width: 100%;
+    border-radius: 7px;
   }
   &__description {
 
   }
-  &__tags {
+  &__tags-info {
     display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
   }
+  &__created-title {
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+  &__tags-container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.tags {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 1px solid gray;
+  color: gray;
+  font-size: 0.8rem;
+  padding: 2%;
+  font-weight: 400;
+  margin: 2%;
 }
 
 .link-container {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 5%;
+  justify-content: center;
+  align-items: center;
 }
 
 .link__project{
-  background-color: blue;
-  border-radius: 7px;
+  text-decoration: none;
   padding: 2%;
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;  &:visited{
-    color: white;
+  color: black;
+  margin: 2%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 3px 0px;
+
+  &:hover{
+    background-color: purple;
   }
 }
