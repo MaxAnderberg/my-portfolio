@@ -17,7 +17,6 @@ const Project = ( props ) => {
       </section>
       <section className='card__tags-info'>
         <section>
-          <p className='card__created-title'>Created with</p>
           <section className='card__tags-container'>
             {parsedTags.map(item => (<span className='tags'>{item}</span>))}
           </section>
