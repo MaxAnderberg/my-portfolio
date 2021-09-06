@@ -7,7 +7,7 @@ const Project = ( props ) => {
   const parsedTags = tags.split(' ').filter(i => i);
   return (
     <article className='card'>
-      <section>
+      <section className='card__image-container'>
         <img className='card__image' src={image}/>
       </section>
       <section className='card__info-container'>
@@ -15,18 +15,20 @@ const Project = ( props ) => {
           <h1 className='card__title'>{title}</h1>
         </section>
         <p className='card__description'>{description}</p>
-      </section>
-      <section className='card__tags-info'>
+        <section className='card__tags-info'>
         <section>
           <section className='card__tags-container'>
-            {parsedTags.map(item => (<span className='tags'>{item}</span>))}
+            {parsedTags.map(item => (<span className='tag'>{item}</span>))}
           </section>
         </section>
       </section>
-      <section className='link-container'>
+        <section className='link-container'>
         <a className='link__project' href={deploymentLink} > <StaticImage className='link__image' src='../../images/globe.png'/>Demo</a>
         <a className='link__project' href={githubLink} ><StaticImage className='link__image' src='../../images/coding.png'/> Code</a>
       </section>
+      </section>
+
+
     </article>
   )
 }
