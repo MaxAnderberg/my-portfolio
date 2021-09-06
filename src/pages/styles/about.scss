@@ -13,8 +13,13 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.skills-container{
+  max-width: 500px;
+}
+
 .bio{
   text-align: justify;
+  line-height: 1.7rem;
 
 }
 .image {
@@ -35,6 +40,8 @@
   margin-bottom: 10%;
   border: 1px solid white;
   border-radius: 50%;
+  max-width: 300px;
+
 }
 
 .knowledge {
@@ -64,5 +71,21 @@
   &__title {
     font-weight: 700;
     font-size: 0.8rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .profile-image {
+    width: 70%;
+    margin-bottom: 10%;
+    border: 1px solid white;
+    border-radius: 50%;
+  }
+  .skills-container {
+    min-width: 500px;
+  }
+
+  .bio {
+    max-width: 650px;
   }
 }

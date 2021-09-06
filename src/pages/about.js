@@ -9,15 +9,26 @@ const About = () => (
   <Layout>
     <Seo title="About" />
     <div className='about-container'>
-      <h1>Hello There!</h1>
+      <h1>My journey</h1>
       <p className='bio'> My journey starts In 2014 when I started the bachelor programme Computational linguistics at Uppsala University. I started programming in python, and during my last year I pursued more programming courses like: 
+			  Java, Database design, interface programming and a theory course called Human Computer Interactions. 
+        I got my first job in September 2017 at Baltic Spot as a computational Linguistic, and they were a software company in the maritime business.
+        <br></br>
+        <br></br>
+
+        My journey starts In 2014 when I started the bachelor programme Computational linguistics at Uppsala University. I started programming in python, and during my last year I pursued more programming courses like: 
+			  Java, Database design, interface programming and a theory course called Human Computer Interactions. 
+        I got my first job in September 2017 at Baltic Spot as a computational Linguistic, and they were a software company in the maritime business.
+        <br></br>
+        <br></br>
+        My journey starts In 2014 when I started the bachelor programme Computational linguistics at Uppsala University. I started programming in python, and during my last year I pursued more programming courses like: 
 			  Java, Database design, interface programming and a theory course called Human Computer Interactions. 
         I got my first job in September 2017 at Baltic Spot as a computational Linguistic, and they were a software company in the maritime business.
       </p>
       <section>
       <StaticImage className='profile-image' src='../images/profile-image.png'/>
       </section>
-      <section>
+      <section className='skills-container'>
         <h2 className='knowledge'>Skills</h2>
         <section>
           <h2 className='knowledge__category'>Frontend</h2>
