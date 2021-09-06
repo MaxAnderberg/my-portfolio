@@ -25,8 +25,8 @@ const About = () => (
 			  Java, Database design, interface programming and a theory course called Human Computer Interactions. 
         I got my first job in September 2017 at Baltic Spot as a computational Linguistic, and they were a software company in the maritime business.
       </p>
-      <section>
-      <StaticImage className='profile-image' src='../images/profile-image.png'/>
+      <section className='profile-image-container'>
+        <StaticImage className='profile-image' src='../images/profile-image.png'/>
       </section>
       <section className='skills-container'>
         <h2 className='knowledge'>Skills</h2>

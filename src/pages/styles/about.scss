@@ -34,10 +34,11 @@
   float: left;
   padding: 5px;
 }
-
+.profile-image-container {
+  margin-bottom: 8%;
+}
 .profile-image {
   width: 70%;
-  margin-bottom: 10%;
   border: 1px solid white;
   border-radius: 50%;
   max-width: 300px;
