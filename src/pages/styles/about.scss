@@ -13,6 +13,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.bio{
+  text-align: justify;
+
+}
 .image {
   width: 50px;
 }
@@ -20,8 +24,10 @@
 .dropcap {
   float: left;
   font-size: 400%;
+  height: 100%;
   color: #cf142b;
-  margin: -10px -15px -20px 0;
+  float: left;
+  padding: 5px;
 }
 
 .profile-image {
@@ -35,6 +41,8 @@
   font-size: 2rem;
   font-weight: 700;
   text-decoration: underline;
+
+
   &__category {
     font-size: 1.5rem;
     font-weight: 700;

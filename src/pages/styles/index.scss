@@ -8,6 +8,17 @@ body,html {
   height: 100%;
 }
 
+.homepage-container {
+  height:90vh;
+  background-color: black;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 0.4fr;
+  overflow: hidden;
+}
+
+
 .icon {
   width: 55px;
   height: 55px;
@@ -83,12 +94,8 @@ body,html {
 
 }
 
-.homepage-container {
-  height:90vh;
-  background-color: black;
-  overflow: hidden;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 0.4fr;
-  overflow: hidden;
+@media only screen and (min-width: 1024px) {
+  .homepage-container {
+    grid-template-columns: 1fr 1fr;
+  }
 }
