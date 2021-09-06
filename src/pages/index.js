@@ -6,20 +6,19 @@ import './styles/index.scss';
 
 const IndexPage = () => {
   
-  const colors = ["#0088FE", "#00C49F", "#FFBB28"];
-  const images = [
-    "https://photos.google.com/search/_tra_/photo/AF1QipNT-irFVwOiIdffUqI2avCnMk29gPtcOcfiO0dO",
-    "https://photos.google.com/search/_tra_/photo/AF1QipN01Ud8d2vl2HfsD632WGQ9PSHHR6xRmbJ99y1P"
-   , "https://photos.google.com/search/_tra_/photo/AF1QipN01Ud8d2vl2HfsD632WGQ9PSHHR6xRmbJ99y1P"
-  ];
-  const [index, setIndex] = React.useState(0);
+  const [index, setIndex] = useState(0);
+  const [images, setImages] = useState(0);
   const delay = 2500;
 
-  React.useEffect(() => {
+  useEffect(() => {
+    setImages(document.getElementsByClassName('slide').length)
+  },[]) 
+
+  useEffect(() => {
     setTimeout(
       () =>
-        setIndex((prevIndex) =>
-          prevIndex === colors.length - 1 ? 0 : prevIndex + 1
+        setIndex((prevImage) =>
+          prevImage === images - 1 ? 0 : prevImage + 1
         ),
       delay
     );
@@ -38,8 +37,13 @@ const IndexPage = () => {
         <div className="slideshow ">
           <div className="slideshowSlider" style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}>
             <StaticImage className='slide' src="../images/javascript.png" alt=""/>
+            <StaticImage className='slide' src="../images/react.png" alt=""/>
+            <StaticImage className='slide' src="../images/nodejs.png" alt=""/>
+            <StaticImage className='slide' src="../images/gatsbyjs.png" alt=""/>
             <StaticImage className='slide' src="../images/html5.png" alt=""/>
             <StaticImage className='slide' src="../images/css3.png" alt=""/>
+            <StaticImage className='slide' src="../images/mongodb.png" alt=""/>
+            <StaticImage className='slide' src="../images/mocha.png" alt=""/>
           </div>
         </div>
         </div>
