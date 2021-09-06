@@ -18,3 +18,13 @@
   font-weight: bold;
   font-size: 3rem;
 }
+
+@media only screen and (min-width: 1024px) {
+  .portfolio-container {
+  padding-top: 10%;
+  }
+  .portfolio__title {
+    padding-bottom: 5%;
+
+  }
+}

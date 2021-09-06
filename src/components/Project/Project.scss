@@ -9,6 +9,8 @@
   text-align: center;
   justify-content: center;
   box-shadow:  rgba(0, 0, 0, 0.9) 0px 5px 7px;
+  max-width: 288px;
+  line-height: 1.7rem;
   
   &__info-container {
     display: flex;
@@ -101,4 +103,10 @@
 
 .link__image {
   width: 20%;
+}
+
+@media only screen and (min-width: 1024px) {
+  .card {
+    max-width: 600px;
+  }
 }
