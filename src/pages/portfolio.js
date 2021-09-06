@@ -11,7 +11,7 @@ const Portfolio = ({data}) => {
     <Layout>
       <Seo title="Portfolio" />
       <div className='portfolio-container'>
-        <h1>My Projects</h1>
+        <h1 className='portfolio__title'>Projects</h1>
         {nodes.map(item => 
           <Project description={item.node.description.description} image={item.node.image.fluid.src} title={item.node.title}
           tags={item.node.tags} githubLink={item.node.githubLink} deploymentLink={item.node.deploymentLink}
