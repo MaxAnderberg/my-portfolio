@@ -7,11 +7,12 @@ const Project = ( props ) => {
   const parsedTags = tags.split(' ').filter(i => i);
   return (
     <article className='card'>
-      <section>
-        <h1 className='card__title'>{title}</h1>
-      </section>
+ 
       <section className='card__info-container'>
         <img className='card__image' src={image}/>
+        <section>
+          <h1 className='card__title'>{title}</h1>
+        </section>
         <p className='card__description'>{description}</p>
       </section>
       <section className='card__tags-info'>
