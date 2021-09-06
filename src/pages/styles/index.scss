@@ -74,6 +74,7 @@ body,html {
   display: flex;
   justify-content: center;
   align-items: center;
+  align-items: center;
   margin: auto 0;
   max-width: 100px;
   max-height: 100px;
@@ -91,11 +92,42 @@ body,html {
   width: 100%;
   border-radius: 40px;
   margin: auto 0;
-
 }
 
 @media only screen and (min-width: 1024px) {
   .homepage-container {
     grid-template-columns: 1fr 1fr;
+    flex-direction: row;
+  }
+  .item-c {
+    grid-row-start: 1;
+    grid-column-start: 2;
+  }
+
+  .item-d {
+    grid-row-start: -2;
+    grid-column-start: 1;
+  }
+  .slideshow {
+    max-width: 250px;
+    max-height: 250px;
+    justify-content: flex-end;
+    margin-bottom: 20%;
+  }
+  .bio-intro {
+    align-items: flex-end;
+  }
+  .bio-intro__greeting {
+    font-size: 4rem;
+  }
+  .bio-intro__name {
+    font-size: 3.5rem;
+  }
+  .bio-intro__title {
+    font-size: 2rem;
+  }
+  .bio-intro__icons-container {
+    justify-content: flex-end;
+    align-items: flex-start;
   }
 }
