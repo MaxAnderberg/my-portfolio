@@ -7,9 +7,10 @@ const Project = ( props ) => {
   const parsedTags = tags.split(' ').filter(i => i);
   return (
     <article className='card'>
- 
-      <section className='card__info-container'>
+      <section>
         <img className='card__image' src={image}/>
+      </section>
+      <section className='card__info-container'>
         <section>
           <h1 className='card__title'>{title}</h1>
         </section>
