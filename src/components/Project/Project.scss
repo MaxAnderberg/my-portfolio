@@ -20,7 +20,7 @@
   }
   &__title{
     font-weight: 700;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin-bottom: 2%;
   }
   &__image {
@@ -28,7 +28,8 @@
     border-radius: 7px;
   }
   &__description {
-
+    font-weight: 400;
+    font-size: 0.9rem;
   }
   &__tags-info {
     display: flex;
@@ -41,7 +42,9 @@
   }
   &__tags-container {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-width: 225px;
   }
 }
 .tags {
