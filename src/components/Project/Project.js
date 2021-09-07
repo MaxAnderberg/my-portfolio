@@ -14,11 +14,11 @@ const Project = ( props ) => {
       entries.forEach(entry => setVisible(entry.isIntersecting));
     });
     observer.observe(domRef.current);
-    return () => observer.unobserve(domRef.current);
+    return () => observer.disconnect(domRef.current);
   }, []);
 
   return (
-    <article className={`card fade-in-section ${isVisible ? 'is-visible' : ''}`} ref={domRef}>
+    <div className={`card fade-in-section ${isVisible ? 'is-visible' : ''}`} ref={domRef}>
       <section className='card__image-container'>
         <img className='card__image' src={image}/>
       </section>
@@ -41,7 +41,7 @@ const Project = ( props ) => {
       </section>
 
 
-    </article>
+    </div>
   )
 }
 
