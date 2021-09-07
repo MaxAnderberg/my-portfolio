@@ -1,5 +1,4 @@
 @import '../../global-styles//variables';
-
 * {
   margin: 0;
   padding: 0;
@@ -102,6 +101,9 @@ body,html {
     flex-direction: row;
   }
   .item-c {
+    margin-top: 20%;
+    justify-content: center;
+    align-items: center;
     grid-row-start: 1;
     grid-column-start: 2;
   }
@@ -113,8 +115,9 @@ body,html {
   .slideshow {
     max-width: 250px;
     max-height: 250px;
-    justify-content: flex-end;
-    margin-bottom: 20%;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
   }
   .bio-intro {
     align-items: flex-end;
