@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import DropdownMenu from './DropdownMenu/DropdownMenu';
 import Hamburger from '../Hamburger/Hamburger';
+import NavLinks from './NavLinks';
 import './Navbar.scss';
 const Navbar = () => {
 
@@ -8,7 +9,10 @@ const Navbar = () => {
 
   return (
     <nav className='navbar-container'>
-      <div>
+      <div className='desktop'>
+        <NavLinks />
+      </div>
+      <div className='mobile'>
         <Hamburger isOpen={isOpen} setOpen={setOpen}/>
         <DropdownMenu isOpen={isOpen}/>
       </div>

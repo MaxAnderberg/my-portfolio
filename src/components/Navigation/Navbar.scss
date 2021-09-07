@@ -5,3 +5,21 @@
   align-items: center;
   height: 100%;
 }
+
+.desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+  .mobile {
+    display: none;
+  }
+  .desktop {
+    display: flex;
+  }
+  .navbar-container {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+}

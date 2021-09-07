@@ -1,7 +1,11 @@
+@import '../../global-styles/variables';
+
 .navlinks-container {
   display: flex;
   flex-direction: column;
   width: 100%;
+  transition: all 1s ease;
+
 }
 
 .navlink{
@@ -18,11 +22,42 @@
   &:first-child{
     margin-top: 1rem;
   }
+  &:hover{
+    cursor: pointer;
+    &::before{
+      margin-left: 10px;
+
+      content: "[";
+      transform: translateX(-20px);
+    }
+    &::after{
+      margin-right: 10px;
+
+      content: "]";
+      transform: translateX(-20px);
+    }
+  }
 }
 
 .navlink.active {
-  background-color: white;
-  color: black;
   width: 100%;
   margin: 0;
+  &::before {
+    margin-right: 10px;
+    content: "[";
+    color: $secondery-color;
+  }
+  &::after {
+    margin-left: 10px;
+    content: "]";
+    color: $secondery-color;
+
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .navlinks-container {
+    flex-direction: row;
+    margin-right: 10%;
+  }
 }
