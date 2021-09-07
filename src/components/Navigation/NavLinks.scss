@@ -5,17 +5,19 @@
   flex-direction: column;
   width: 100%;
   transition: all 1s ease;
-
 }
 
 .navlink{
   text-decoration: none;
   text-transform: uppercase;
-  text-align: center;
   letter-spacing: .2rem;
   font-size: 1.2rem;
   padding: 3%;
-  margin: 0;
+  transition: transform 0.3s, opacity 0.2s;
+    transition-property: transform, opacity;
+    transition-duration: 0.3s, 0.2s;
+    transition-timing-function: ease, ease;
+    transition-delay: 0s, 0s;
   &:visited {
     color: #fff;
   }
@@ -40,6 +42,7 @@
 }
 
 .navlink.active {
+  
   width: 100%;
   margin: 0;
   &::before {
@@ -59,5 +62,9 @@
   .navlinks-container {
     flex-direction: row;
     margin-right: 10%;
+    align-items: center;
+  }
+  .navlink:first-child {
+    margin-top: 0;
   }
 }
