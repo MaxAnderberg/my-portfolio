@@ -1,3 +1,5 @@
+@import '../../global-styles//variables';
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +11,7 @@ body,html {
 }
 
 .homepage-container {
-  height:95vh;
+  height: $base-vh;
   background-color: black;
   overflow: hidden;
   display: grid;
