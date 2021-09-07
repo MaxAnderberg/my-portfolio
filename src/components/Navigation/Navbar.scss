@@ -4,6 +4,7 @@
   justify-content: flex-end;
   align-items: center;
   height: 100%;
+  width: 100%;
 }
 
 .desktop {
@@ -16,6 +17,7 @@
   }
   .desktop {
     display: flex;
+    margin-left: 2%;
   }
   .navbar-container {
     display: flex;
