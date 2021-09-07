@@ -5,6 +5,7 @@
   flex-direction: column;
   width: 100%;
   transition: all 1s ease;
+  align-items: center;
 }
 
 .navlink{
@@ -15,7 +16,7 @@
   transition: all 0.3s ease;
   padding-left: 5px;
   padding-right: 5px;
-
+  margin-bottom: 5%;
 
   &:visited {
     color: #fff;
@@ -89,5 +90,8 @@
   }
   .navlink:first-child {
     margin-top: 0;
+  }
+  .navlink {
+    margin-bottom: 0;
   }
 }

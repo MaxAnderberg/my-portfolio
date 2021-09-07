@@ -2,9 +2,10 @@
   transition: all 0.3s ease-out;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: center;
   position: absolute;
-  height: 40%;
+  height: 25%;
   width: 100%;
   background: rgb(52,52,52);
   background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 200%);
