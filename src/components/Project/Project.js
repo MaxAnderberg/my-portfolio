@@ -12,9 +12,10 @@ const Project = ( props ) => {
   useEffect(() => {
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => setVisible(entry.isIntersecting));
-    });
+    },
+    { root: null, rootMargin: '200px', threshold: 0.5 }
+    );
     observer.observe(domRef.current);
-    return () => observer.disconnect(domRef.current);
   }, []);
 
   return (
