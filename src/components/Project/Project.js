@@ -40,7 +40,6 @@ const Project = ( props ) => {
       </section>
       </section>
 
-
     </div>
   )
 }
