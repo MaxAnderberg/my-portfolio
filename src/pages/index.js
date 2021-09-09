@@ -28,14 +28,14 @@ const IndexPage = () => {
   return (
   <Layout>
     <div className="homepage-container">
-      <div className='bio-intro'>
-          <h3 className='bio-intro__greeting'>Hi, I'm</h3>
-          <h2 className='bio-intro__name'>Max Anderberg</h2>
-          <h4 className='bio-intro__title'>Fullstack Developer</h4>
-        </div>
-        <div className="item-c">
-        <div className="slideshow ">
-          <div className="slideshowSlider" style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}>
+      <div className='introduction'>
+          <h3 className='introduction__greeting'>Hi, I'm</h3>
+          <h2 className='introduction__name'>Max Anderberg</h2>
+          <h4 className='introduction__title'>Fullstack Developer</h4>
+      </div>
+      <div className="item-a">
+        <div className="slideshow-container">
+          <div className="slideshow-slider" style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}>
             <StaticImage className='slide' src="../images/javascript.png" alt=""/>
             <StaticImage className='slide' src="../images/react.png" alt=""/>
             <StaticImage className='slide' src="../images/nodejs.png" alt=""/>
@@ -46,12 +46,11 @@ const IndexPage = () => {
             <StaticImage className='slide' src="../images/mocha.png" alt=""/>
           </div>
         </div>
-        </div>
-
-        <div className='bio-intro__icons-container item-d'>
-          <a href="https://github.com/MaxAnderberg"><StaticImage className='icon' src='../icons/github-128.png'/></a>
-          <a href="https://linkedin.com/in/maxanderberg"><StaticImage className='icon' src='../icons/linkedin-128.png'/></a>
-        </div>
+      </div>
+      <div className='icon-container item-b'>
+        <a href="https://github.com/MaxAnderberg"><StaticImage className='icon' src='../icons/github-128.png'/></a>
+        <a href="https://linkedin.com/in/maxanderberg"><StaticImage className='icon' src='../icons/linkedin-128.png'/></a>
+      </div>
     </div>
     <Seo title="Home" />
   </Layout>
