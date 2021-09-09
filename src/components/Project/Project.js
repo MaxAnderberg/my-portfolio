@@ -19,7 +19,7 @@ const Project = ( props ) => {
   }, []);
 
   return (
-    <div className={`card fade-in-section ${isVisible ? 'is-visible' : ''}`} ref={domRef}>
+    <article className={`card fade-in-section ${isVisible ? 'is-visible' : ''}`} ref={domRef}>
       <section className='card__image-container'>
         <img className='card__image' src={image}/>
       </section>
@@ -41,7 +41,7 @@ const Project = ( props ) => {
       </section>
       </section>
 
-    </div>
+    </article>
   )
 }
 
