@@ -31,13 +31,13 @@ const Project = ( props ) => {
         <section className='card__tags-info'>
         <section>
           <section className='card__tags-container'>
-            {parsedTags.map(item => (<span className='tag'>{item}</span>))}
+            {parsedTags.map(item => (<span className='card__tag'>{item}</span>))}
           </section>
         </section>
       </section>
-        <section className='link-container'>
-        <a className='link__project' href={deploymentLink} > <StaticImage className='link__image' src='../../images/globe.png'/>Demo</a>
-        <a className='link__project' href={githubLink} ><StaticImage className='link__image' src='../../images/coding.png'/> Code</a>
+        <section className='card__link-container'>
+        <a className='card__external-link' href={deploymentLink} > <StaticImage className='card__link-image' src='../../images/globe.png'/>Demo</a>
+        <a className='card__external-link' href={githubLink} ><StaticImage className='card__link-image' src='../../images/coding.png'/> Code</a>
       </section>
       </section>
 
