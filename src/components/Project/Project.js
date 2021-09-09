@@ -21,7 +21,7 @@ const Project = ( props ) => {
   return (
     <article className={`card fade-in-section ${isVisible ? 'is-visible' : ''}`} ref={domRef}>
       <section className='card__image-container'>
-        <img className='card__image' src={image}/>
+        <img className='card__image' src={image} alt=""/>
       </section>
       <section className='card__info-container'>
         <section>
@@ -36,8 +36,8 @@ const Project = ( props ) => {
         </section>
       </section>
         <section className='card__link-container'>
-        <a className='card__external-link' href={deploymentLink} > <StaticImage className='card__link-image' src='../../images/globe.png'/>Demo</a>
-        <a className='card__external-link' href={githubLink} ><StaticImage className='card__link-image' src='../../images/coding.png'/> Code</a>
+        <a className='card__external-link' href={deploymentLink} > <StaticImage className='card__link-image' src='../../images/globe.png' alt="A globe icon"/>Demo</a>
+        <a className='card__external-link' href={githubLink} ><StaticImage className='card__link-image' src='../../images/coding.png' alt="A coding icon"/> Code</a>
       </section>
       </section>
 
