@@ -5,13 +5,13 @@
   height: 20px;
   align-items: center;
   cursor: pointer;
-  /* transition: all .5 ease-in-out; */
   -webkit-transition: all 0.35s ease-in-out;  
   -moz-transition: all 0.35s ease-in-out;  
   -o-transition: all 0.35s ease-in-out;  
   -ms-transition: all 0.35s ease-in-out;  
   transition: all 0.35s ease-in-out;
   float: right;
+  margin-right: 20%;
 }
 
 .menu-btn__hamburger {
