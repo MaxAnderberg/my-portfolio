@@ -15,7 +15,6 @@ const About = () => (
         I got my first job in September 2017 at Baltic Spot as a computational Linguistic, and they were a software company in the maritime business.
         <br></br>
         <br></br>
-
         My journey starts In 2014 when I started the bachelor programme Computational linguistics at Uppsala University. I started programming in python, and during my last year I pursued more programming courses like: 
 			  Java, Database design, interface programming and a theory course called Human Computer Interactions. 
         I got my first job in September 2017 at Baltic Spot as a computational Linguistic, and they were a software company in the maritime business.
@@ -29,100 +28,91 @@ const About = () => (
         <StaticImage className='profile-image' src='../images/profile-image.png'/>
       </section>
       <section className='skills-container'>
-        <h2 className='knowledge'>Skills</h2>
-        <section>
-          <h2 className='knowledge__category'>Frontend</h2>
-          <div className='skills'>
-            <div className='item'>
-              <StaticImage src='../images/javascript.png' className='image'/>
-              <p className='item__title'>Javascript</p>
-            </div>
-            <div className='item'>
-              <StaticImage src='../images/react.png' className='image'/>
-              <p className='item__title'>React</p>
-            </div>
-            <div className='item'>
-              <StaticImage src='../images/gatsbyjs.png' className='image'/>
-              <p className='item__title'>Gatsby</p>
-            </div>
-            <div className='item'>
-              <StaticImage src='../images/redux.png' className='image'/>
-              <p className='item__title'>Redux</p>
-            </div>
-            <div className='item'>
-              <StaticImage src='../images/html5.png' className='image'/>
-              <p className='item__title'>HTML</p>
-            </div>
-            <div className='item'>
-              <StaticImage src='../images/css3.png' className='image'/>
-              <p className='item__title'>CSS</p>
-            </div>
+        <h2 className='knowledge__category'>Frontend</h2>
+        <div className='skills'>
+          <div className='skill'>
+            <StaticImage src='../images/javascript.png' className='skill__image'/>
+            <p className='skill__title'>Javascript</p>
           </div>
+          <div className='skill'>
+            <StaticImage src='../images/react.png' className='skill__image'/>
+            <p className='skill__title'>React</p>
+          </div>
+          <div className='skill'>
+            <StaticImage src='../images/gatsbyjs.png' className='skill__image'/>
+            <p className='skill__title'>Gatsby</p>
+          </div>
+          <div className='skill'>
+            <StaticImage src='../images/redux.png' className='skill__image'/>
+            <p className='skill__title'>Redux</p>
+          </div>
+          <div className='skill'>
+            <StaticImage src='../images/html5.png' className='skill__image'/>
+            <p className='skill__title'>HTML</p>
+          </div>
+          <div className='skill'>
+            <StaticImage src='../images/css3.png' className='skill__image'/>
+            <p className='skill__title'>CSS</p>
+          </div>
+        </div>
+        <h2 className='knowledge__category'>Backend</h2>
+        <div className='skills'>
+          <div className='skill'>
+            <StaticImage src='../images/nodejs.png' className='skill__image'/>
+            <p className='skill__title'>NodeJS</p>
+          </div>
+          <div className='skill'>
+            <StaticImage src='../images/mongodb.png' className='skill__image'/>
+            <p className='skill__title'>MongoDB</p>
+          </div>
+          <div className='skill'>
+            <StaticImage src='../images/postgresql.png' className='skill__image'/>
+            <p className='skill__title'>Postgres</p>
+          </div>
+          <div className='skill'>
+            <StaticImage src='../images/graphql.png' className='skill__image'/>
+            <p className='skill__title'>GraphQL</p>
+          </div>
+          <div className='skill'>
+            <StaticImage src='../images/express.png' className='skill__image express-icon'/>
+            <p className='skill__title'>Express</p>
+          </div>
+        </div>
 
-        </section>
-        <section>
-          <h2 className='knowledge__category'>Backend</h2>
-          <div className='skills'>
-            <div className='item'>
-              <StaticImage src='../images/nodejs.png' className='image'/>
-              <p className='item__title'>NodeJS</p>
-            </div>
-            <div className='item'>
-              <StaticImage src='../images/mongodb.png' className='image'/>
-              <p className='item__title'>MongoDB</p>
-            </div>
-            <div className='item'>
-              <StaticImage src='../images/postgresql.png' className='image'/>
-              <p className='item__title'>Postgres</p>
-            </div>
-            <div className='item'>
-              <StaticImage src='../images/graphql.png' className='image'/>
-              <p className='item__title'>GraphQL</p>
-            </div>
-            <div className='item'>
-              <StaticImage src='../images/express.png' className='image express-icon'/>
-              <p className='item__title'>Express</p>
-            </div>
+        <h2 className='knowledge__category'>Tools</h2>
+        <div className='skills'>
+          <div className='skill'>
+            <StaticImage src='../images/serverless.png' className='skill__image'/>
+            <p className='skill__title'>Serverless</p>
           </div>
-        </section>
-        <section>
-          <h2 className='knowledge__category'>Tools</h2>
-          <div className='skills'>
-            <div className='item'>
-              <StaticImage src='../images/serverless.png' className='image'/>
-              <p className='item__title'>Serverless</p>
-            </div>
-            <div className='item'>
-              <StaticImage src='../images/heroku.png' className='image'/>
-              <p className='item__title'>Heroku</p>
-            </div>
-        
-            <div className='item'>
-              <StaticImage src='../images/agile.png' className='image'/>
-              <p className='item__title'>Agile</p>
-            </div>
-            <div className='item'>
-              <StaticImage src='../images/TDD.png' className='image'/>
-              <p className='item__title'>TDD</p>
-            </div>
-            <div className='item'>
-              <StaticImage src='../images/netlify.png' className='image'/>
-              <p className='item__title'>Netlify</p>
-            </div>
-            <div className='item'>
-              <StaticImage src='../images/mocha.png' className='image'/>
-              <p className='item__title'>Mocha</p>
-            </div>
-            <div className='item'>
-              <StaticImage src='../images/jest.png' className='image'/>
-              <p className='item__title'>Mocha</p>
-            </div>
+          <div className='skill'>
+            <StaticImage src='../images/heroku.png' className='skill__image'/>
+            <p className='skill__title'>Heroku</p>
           </div>
-        </section>
+      
+          <div className='skill'>
+            <StaticImage src='../images/agile.png' className='skill__image'/>
+            <p className='skill__title'>Agile</p>
+          </div>
+          <div className='skill'>
+            <StaticImage src='../images/TDD.png' className='skill__image'/>
+            <p className='skil__title'>TDD</p>
+          </div>
+          <div className='skill'>
+            <StaticImage src='../images/netlify.png' className='skill__image'/>
+            <p className='skill__title'>Netlify</p>
+          </div>
+          <div className='skill'>
+            <StaticImage src='../images/mocha.png' className='skill__image'/>
+            <p className='skill__title'>Mocha</p>
+          </div>
+          <div className='skill'>
+            <StaticImage src='../images/jest.png' className='skill__image'/>
+            <p className='skill__title'>Jest</p>
+          </div>
+        </div>
       </section>
-
     </div>
-
   </Layout>
 )
 
