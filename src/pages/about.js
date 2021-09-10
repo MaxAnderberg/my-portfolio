@@ -10,19 +10,20 @@ const About = () => (
     <Seo title="About" />
     <div className='about-container'>
       <h1>My journey</h1>
-      <p className='bio'> My journey starts In 2014 when I started the bachelor programme Computational linguistics at Uppsala University. I started programming in python, and during my last year I pursued more programming courses like: 
-			  Java, Database design, interface programming and a theory course called Human Computer Interactions. 
-        I got my first job in September 2017 at Baltic Spot as a computational Linguistic, and they were a software company in the maritime business.
+      <p className='bio'> 
+        Placeholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder text
+        Placeholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder text
+        Placeholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder text
         <br></br>
         <br></br>
-        My journey starts In 2014 when I started the bachelor programme Computational linguistics at Uppsala University. I started programming in python, and during my last year I pursued more programming courses like: 
-			  Java, Database design, interface programming and a theory course called Human Computer Interactions. 
-        I got my first job in September 2017 at Baltic Spot as a computational Linguistic, and they were a software company in the maritime business.
+        Placeholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder text
+        Placeholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder text
+        Placeholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder text
         <br></br>
         <br></br>
-        My journey starts In 2014 when I started the bachelor programme Computational linguistics at Uppsala University. I started programming in python, and during my last year I pursued more programming courses like: 
-			  Java, Database design, interface programming and a theory course called Human Computer Interactions. 
-        I got my first job in September 2017 at Baltic Spot as a computational Linguistic, and they were a software company in the maritime business.
+        Placeholder text Placeholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder text
+        Placeholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder text
+        Placeholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder text
       </p>
       <section className='profile-image-container'>
         <StaticImage className='profile-image' src='../images/profile-image.png'/>

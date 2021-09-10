@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import './styles/portfolio.scss';
 
-const Portfolio = ({data}) => {
+const Portfolio = ({ data }) => {
   const nodes = data.allContentfulProject.edges
 
   return (
@@ -14,8 +14,13 @@ const Portfolio = ({data}) => {
       <div className='portfolio-container'>
         <h1 className='portfolio__title'>Projects</h1>
         {nodes.map(item => 
-          <Project description={item.node.description.description} image={item.node.image.fluid.src} title={item.node.title}
-          tags={item.node.tags} githubLink={item.node.githubLink} deploymentLink={item.node.deploymentLink}
+          <Project 
+            description={item.node.description.description} 
+            image={item.node.image.fluid.src} 
+            title={item.node.title}
+            tags={item.node.tags} 
+            githubLink={item.node.githubLink} 
+            deploymentLink={item.node.deploymentLink}
           />
         )}  
       </div>
