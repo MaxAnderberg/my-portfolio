@@ -21,10 +21,10 @@ const Project = ( props ) => {
   return (
     
     <article className={`card fade-in-section ${isVisible ? 'is-visible' : ''}`} ref={domRef}>
-      <section className='card__image-container'>
+      <section className='card__image-container item-1'>
         <img className='card__image' src={image} alt=""/>
       </section>
-      <section className='card__info-container'>
+      <section className='card__info-container item-2'>
         <section>
           <h1 className='card__title'>{title}</h1>
         </section>
