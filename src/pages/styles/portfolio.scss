@@ -11,12 +11,18 @@ $light: #F3F3F3;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: #055e68;
+  // background-color: #055e68;
+  background-color: #000;
   color: white;
-  padding: 5%;
-  padding-top: 20%;
+  padding: 10%;
   font-family: 'Roboto', sans-serif;
-  position: relative;
+}
+
+.portfolio__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15%;
 }
 
 .portfolio__title {
