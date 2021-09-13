@@ -1,4 +1,4 @@
-@import '../../global-styles//variables';
+@import '../../global-styles/variables';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
 
 .about-container {
@@ -13,13 +13,8 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.skills-container{
-  max-width: 500px;
-  display: flex;
-  flex-direction: column;
-}
-
 .bio{
+  margin: 5%;
   text-align: justify;
   line-height: 1.7rem;
 }
@@ -28,13 +23,28 @@
 }
 
 .profile-image-container {
-  margin-bottom: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $light;
+  width: 100vw;
+  padding: 3%;
+  border-bottom-left-radius: 100%;
+  border-top-right-radius: 100%;
 }
 .profile-image {
-  width: 70%;
-  border: 1px solid white;
+  border: 5px solid $dark;
   border-radius: 50%;
   max-width: 300px;
+  object-fit: cover;
+}
+
+.skills-container{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .knowledge {
@@ -73,9 +83,8 @@
 @media only screen and (min-width: 1024px) {
   .profile-image {
     width: 70%;
-    margin-bottom: 10%;
-    border: 1px solid white;
     border-radius: 50%;
+
   }
   .skills-container {
     min-width: 500px;
