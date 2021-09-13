@@ -31,8 +31,6 @@ body,html {
   align-items: center;
   letter-spacing: 3px;
   color: white;
-  height: 80%;
-  margin-top: 20%;
   &__greeting {
     margin: 0;
     font-size: 2.5rem;
@@ -98,14 +96,16 @@ body,html {
 @media only screen and (min-width: 1024px) {
   .homepage-container {
     grid-template-columns: 1fr 1fr;
-    flex-direction: row;
+    grid-template-rows: 1fr;
+    column-gap: 2%;
   }
+
   .item-a {
-    margin-top: 20%;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     grid-row-start: 1;
     grid-column-start: 2;
+    // background-color: white;
   }
 
   .item-b {

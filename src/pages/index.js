@@ -47,10 +47,10 @@ const IndexPage = () => {
           </div>
         </div>
       </div>
-      <div className='icon-container item-b'>
+      {/* <div className='icon-container item-b'>
         <a href="https://github.com/MaxAnderberg"><StaticImage className='icon' src='../icons/github-128.png'/></a>
         <a href="https://linkedin.com/in/maxanderberg"><StaticImage className='icon' src='../icons/linkedin-128.png'/></a>
-      </div>
+      </div> */}
     </div>
     <Seo title="Home" />
   </Layout>
