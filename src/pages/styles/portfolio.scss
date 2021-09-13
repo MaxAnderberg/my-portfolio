@@ -21,16 +21,25 @@ $light: #F3F3F3;
 .portfolio__text {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   margin-bottom: 15%;
 }
 
 .portfolio__title {
-  padding-bottom: 20%;
   text-shadow: rgba(0, 0, 0, 0.45) 0px 4px 5px;
   font-weight: bold;
   font-size: 3rem;
+  margin-bottom: 2%;
 }
+
+.portfolio__description{
+  font-size: 1.3rem;
+  text-align: center;
+  letter-spacing: 0.15rem;
+  font-weight: lighter;
+}
+
 
 
 

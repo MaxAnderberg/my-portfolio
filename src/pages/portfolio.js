@@ -19,7 +19,7 @@ const Portfolio = ({ data }) => {
         <section className='portfolio__text'>
           <h1 className='portfolio__title'>Projects</h1>
           <p className='portfolio__description'>
-            Something something something something something something
+            Check out my latest web applications
           </p>
         </section>
 
