@@ -9,6 +9,11 @@ const Navbar = () => {
 
   return (
     <nav className='navbar-container'>
+      <div className='logo-container'>
+        <p>&lt;max/&gt;</p>
+      </div>
+      <div>
+      </div>
       <div className='desktop'>
         <NavLinks />
       </div>

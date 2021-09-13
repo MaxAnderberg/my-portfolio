@@ -11,6 +11,15 @@
   display: none;
 }
 
+.logo-container{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: flex-start;
+  content: "<max/>";
+}
+
 @media only screen and (min-width: 1024px) {
   .mobile {
     display: none;
@@ -20,8 +29,9 @@
     margin-left: 2%;
   }
   .navbar-container {
+    width: 100%;
     display: flex;
-    justify-content: flex-start;
+    // justify-content: flex-end;
   }
   
 }
