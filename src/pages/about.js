@@ -9,7 +9,7 @@ const About = () => (
   <Layout>
     <Seo title="About" />
     <div className='about-container'>
-      <h1>My journey</h1>
+      <h1 className='title'>My journey</h1>
       <p className='bio'> 
         Placeholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder text
         Placeholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder text
