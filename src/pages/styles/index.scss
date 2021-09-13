@@ -11,7 +11,7 @@ body,html {
 
 .homepage-container {
   height: $base-vh;
-  background-color: black;
+  background-color: #212121;
   overflow: hidden;
   display: grid;
   grid-template-columns: 1fr;
@@ -30,7 +30,7 @@ body,html {
   justify-content: center;
   align-items: center;
   letter-spacing: 3px;
-  color: white;
+  color: $light;
   &__greeting {
     margin: 0;
     font-size: 2.5rem;

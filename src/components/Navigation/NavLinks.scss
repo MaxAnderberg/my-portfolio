@@ -69,14 +69,14 @@
   opacity: 1;
 
   content: "[";
-  color: $secondery-color;
+  color: $primary;
   transform: translateX(-5px);  
 
   }
   &::after {
   opacity: 1;   
   content: "]";
-  color: $secondery-color;
+  color: $primary;
   transform: translateX(5px);  
 
   }

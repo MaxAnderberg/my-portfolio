@@ -11,13 +11,11 @@ const Navbar = () => {
   return (
     <nav className='navbar-container'>
       <motion.div 
-        whileHover={{scale: 1.2, originX: 0, color: '#f8e112'}}
-        transition={{type: 'spring', stiffness:400}}
+        whileHover={{scale: 1.3, originX: 0, color: '#FE4880'}}
+        transition={{type: 'spring', stiffness:300}}
         className='logo'>
           &lt;max/&gt;
       </motion.div>
-      <div>
-      </div>
       <div className='desktop'>
         <NavLinks />
       </div>
