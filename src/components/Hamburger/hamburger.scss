@@ -1,10 +1,11 @@
+@import '../../global-styles/variables';
+
 .menu-btn {
   display: flex;
   justify-content: flex-end;
   width: 80px;
   height: 20px;
   align-items: center;
-  cursor: pointer;
   -webkit-transition: all 0.35s ease-in-out;  
   -moz-transition: all 0.35s ease-in-out;  
   -o-transition: all 0.35s ease-in-out;  
@@ -23,7 +24,7 @@
   -o-transition: all 0.35s ease-in-out;  
   -ms-transition: all 0.35s ease-in-out;  
   transition: all 0.35s ease-in-out;
-  background-color: #055E68;
+  background-color: $primary;
 }
 
 .menu-btn__hamburger::before, .menu-btn__hamburger::after {

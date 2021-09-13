@@ -14,11 +14,11 @@
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: .2rem;
-  font-size: 1.2rem;
+  font-size: 2rem;
   transition: all 0.3s ease;
   padding-left: 5px;
   padding-right: 5px;
-  margin-bottom: 5%;
+  margin-bottom: 12%;
 
   &:visited {
     color: #fff;
@@ -96,5 +96,7 @@
   }
   .navlink {
     margin-bottom: 0;
+    font-size: 1.2rem;
+    margin-bottom: 0%;
   }
 }
