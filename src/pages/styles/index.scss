@@ -61,14 +61,6 @@ body,html {
   align-items: center;
 }
 
-.item-b {
-  grid-row-start: 3;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-bottom: 10%;
-}
-
 .slideshow-container {
   display: flex;
   justify-content: center;
@@ -108,10 +100,6 @@ body,html {
     // background-color: white;
   }
 
-  .item-b {
-    grid-row-start: -2;
-    grid-column-start: 1;
-  }
   .slideshow-container {
     max-width: 250px;
     max-height: 250px;
