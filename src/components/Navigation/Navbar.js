@@ -9,9 +9,9 @@ const Navbar = () => {
 
   return (
     <nav className='navbar-container'>
-      <div className='logo-container'>
-        <p>&lt;max/&gt;</p>
-      </div>
+      <span className='logo'>
+        &lt;max/&gt;
+      </span>
       <div>
       </div>
       <div className='desktop'>
