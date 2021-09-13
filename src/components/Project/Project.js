@@ -1,11 +1,20 @@
 import React, { useState, useRef, useEffect} from 'react';
 import './Project.scss';
 import { StaticImage } from "gatsby-plugin-image";
+import { motion } from "framer-motion"
 
 const Project = ( props ) => {
   const {description, image, title, tags, githubLink, deploymentLink} = props;
   const parsedTags = tags.split(' ').filter(i => i);
  
+  const onHoverVariants = {
+    hover: {
+      scale:1.1,
+      textShadow: "0px 0px 8px rgb(255,255,255)",
+      boxShadow: "0px 0px 8px rgb(255,255,255)",
+    }
+  }
+
   const [isVisible, setVisible] = useState(true);
   const domRef = useRef();
 
@@ -30,11 +39,10 @@ const Project = ( props ) => {
         </section>
         <p className='card__description'>{description}</p>
         <section className='card__link-container'>
-        <a className='card__external-link' href={deploymentLink} > <StaticImage className='card__link-image' src='../../images/globe.png' alt="A globe icon"/>Demo</a>
-        <a className='card__external-link' href={githubLink} ><StaticImage className='card__link-image' src='../../images/coding.png' alt="A coding icon"/> Code</a>
+        <motion.a variants={onHoverVariants} whileHover="hover" className='card__external-link' href={deploymentLink} > <StaticImage className='card__link-image' src='../../images/globe.png' alt="A globe icon"/>Demo</motion.a>
+        <motion.a variants={onHoverVariants} whileHover="hover" className='card__external-link' href={githubLink} ><StaticImage className='card__link-image' src='../../images/coding.png' alt="A coding icon"/> Code</motion.a>
         </section>
       </section>
-
     </article>
   )
 }
