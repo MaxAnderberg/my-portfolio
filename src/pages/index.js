@@ -27,17 +27,6 @@ const IndexPage = () => {
     return () => {};
   }, [index]);
 
-  const varients = {
-    visible: {
-      rotatex: [0, -20, 20, -20, 20, 0],
-      rotateY: 20,
-      transition: {delay: 2}
-    },
-    hover: {
-      scale: 1.3,
-    }
-  }
-
   return (
   <Layout>
     <div className="homepage-container">
