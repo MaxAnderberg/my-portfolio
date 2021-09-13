@@ -1,9 +1,8 @@
-import React, { useRef, useState, useEffect } from "react"
+import React, { useState, useEffect } from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import './styles/index.scss';
-import { motion } from "framer-motion"
 import WavingHand from '../components/WavingHand';
 
 const IndexPage = () => {
