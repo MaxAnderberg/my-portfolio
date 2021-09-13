@@ -12,7 +12,7 @@ const Navbar = () => {
     <nav className='navbar-container'>
       <motion.div 
         whileHover={{scale: 1.3, originX: 0, color: '#FE4880'}}
-        transition={{type: 'spring', stiffness:300}}
+        transition={{type: 'spring', stiffness:300, bounce: 0.25}}
         className='logo'>
           &lt;max/&gt;
       </motion.div>
