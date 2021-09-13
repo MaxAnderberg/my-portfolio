@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { motion } from "framer-motion"
 import DropdownMenu from './DropdownMenu/DropdownMenu';
 import Hamburger from '../Hamburger/Hamburger';
 import NavLinks from './NavLinks';
@@ -9,9 +10,12 @@ const Navbar = () => {
 
   return (
     <nav className='navbar-container'>
-      <span className='logo'>
-        &lt;max/&gt;
-      </span>
+      <motion.div 
+        whileHover={{scale: 1.2, originX: 0, color: '#f8e112'}}
+        transition={{type: 'spring', stiffness:400}}
+        className='logo'>
+          &lt;max/&gt;
+      </motion.div>
       <div>
       </div>
       <div className='desktop'>

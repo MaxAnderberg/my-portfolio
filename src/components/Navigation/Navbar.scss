@@ -19,8 +19,10 @@
   color: white;
   left: 0;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin-left: 2%;
+  text-align: center;
+  padding-bottom: 0.3%;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -34,6 +36,9 @@
   .navbar-container {
     display: flex;
     justify-content: flex-start;
+  }
+  .logo{
+    margin-right: 1%;
   }
 
 }
