@@ -70,14 +70,14 @@
 
   content: "[";
   color: $primary;
-  transform: translateX(-5px);  
+  transform: translateX(5px);  
 
   }
   &::after {
   opacity: 1;   
   content: "]";
   color: $primary;
-  transform: translateX(5px);  
+  transform: translateX(-5px);  
 
   }
 }
