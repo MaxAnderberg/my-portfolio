@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { graphql, Link, StaticImage } from "gatsby"
+import { graphql } from "gatsby"
 import Project from '../components/Project/Project'
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -28,7 +28,6 @@ const Portfolio = ({ data }) => {
             description={item.node.description.description} 
             image={item.node.image.fluid.src} 
             title={item.node.title}
-            tags={item.node.tags} 
             githubLink={item.node.githubLink} 
             deploymentLink={item.node.deploymentLink}
           />
@@ -55,7 +54,6 @@ export const query = graphql `
           description
         }
         title
-        tags
         githubLink
         deploymentLink
       }

@@ -4,8 +4,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import { motion } from "framer-motion"
 
 const Project = ( props ) => {
-  const {description, image, title, tags, githubLink, deploymentLink} = props;
-  const parsedTags = tags.split(' ').filter(i => i);
+  const {description, image, title, githubLink, deploymentLink} = props;
  
   const onHoverVariants = {
     hover: {
@@ -28,7 +27,7 @@ const Project = ( props ) => {
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => setVisible(entry.isIntersecting));
     },
-    { root: null, rootMargin: '200px', threshold: 0.5 }
+    { root: null, rootMargin: '0px', threshold: 0.3 }
     );
     observer.observe(domRef.current);
   }, []);
