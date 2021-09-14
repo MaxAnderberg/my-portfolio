@@ -32,7 +32,7 @@ const IndexPage = () => {
     <div className="homepage-container">
       <div className='introduction'>
     
-          <h3 className='introduction__greeting'>Hi<WavingHand />, I'm</h3>
+          <h3 className='introduction__greeting'><WavingHand /> Hi, I'm</h3>
           <h2 className='introduction__name'>Max Anderberg</h2>
           <h4 className='introduction__title'>Fullstack Developer</h4>
       </div>
