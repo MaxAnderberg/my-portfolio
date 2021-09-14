@@ -11,19 +11,20 @@ const About = () => (
     <div className='about-container'>
       <h1 className='title'>My journey</h1>
       <p className='bio'> 
-        Placeholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder text
-        Placeholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder text
-        Placeholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder text
+        Currently working as fullstack JavaScript developer at Salt.
         <br></br>
         <br></br>
-        Placeholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder text
-        Placeholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder text
-        Placeholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder text
+        My journey begins in 2014 when I got accepted to the bachelor program Computational Linguistics at Uppsala University. 
+        In September 2017 I landed my first job as a computational linguistic building and maintaining an information extraction system.
         <br></br>
         <br></br>
-        Placeholder text Placeholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder text
-        Placeholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder text
-        Placeholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder text
+        I became a conversational AI Developer in early 2018 for a company that builds chatbots for enterprises. 
+        I was part of the Innovation & Community team where I wrote how-to articles for new users, explored new technologies, and built community chatbots.
+        <br></br>
+        <br></br>
+        Throughout my career as a computational linguist I've come into close contact with software development, a passion I didn't know I had. 
+        But in late 2020 I decided to apply to salt to finally pursue my dream to switch fields and become a software developer.
+        Out of <strong>1500</strong> other applicants, I got accepted into the spring 2021 boot camp class and graduated three months later at the end of July.
       </p>
       <section className='profile-image-container'>
         <StaticImage className='profile-image' src='../images/profile-image.png'/>
