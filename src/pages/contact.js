@@ -9,6 +9,8 @@ const ContactPage = () => (
   <Layout>
     <Seo title="Contact" />
       <section className='contact-container'>
+        <article className='contact'>
+          <section className='contact__header-container'>
           <motion.h1 
             transition={{duration:0.5, ease: "easeIn"}}
             animate={{
@@ -17,6 +19,8 @@ const ContactPage = () => (
             className='contact__title'>
               maxanderberg@gmail.com
             </motion.h1>
+          </section>
+          <section className='contact__links-container'>
           <ul className='contact__links'>
             <motion.li
               whileHover={{ scale: 1.2 }}
@@ -31,6 +35,10 @@ const ContactPage = () => (
               <a className='contact__link' target="_blank" href="https://github.com/MaxAnderberg/">Github</a>
             </motion.li>
           </ul>
+            </section>
+        </article>
+
+          
       </section>
   </Layout>
 )
