@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { graphql } from "gatsby"
 import Project from '../components/Project/Project'
 import Layout from "../components/layout"
@@ -7,11 +7,7 @@ import './styles/portfolio.scss';
 
 const Portfolio = ({ data }) => {
   const nodes = data.allContentfulProject.edges
-    
-  const [flip, setFlip] = useState(false);
-
-  const handleFlip = () => flip ? setFlip(false) : setFlip(true); 
-  
+      
   return (
     <Layout>
       <Seo title="Portfolio" />
