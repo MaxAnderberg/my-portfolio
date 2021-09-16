@@ -3,7 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import './styles/index.scss';
-import WavingHand from '../components/WavingHand';
+import WavingHand from '../components/WavingHand/WavingHand';
 import { motion } from "framer-motion"
 
 const IndexPage = () => {
