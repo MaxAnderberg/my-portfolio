@@ -24,11 +24,12 @@ Now that you got contentful up and running you can start setting up your local d
 
 1. Clone the repo
 2. Run the following command in your terminal to install the depencencies: <br> `npm install`
-3. create a `.env.development` and a `.env.production` file in the root directory: <br> ```
+3. create a `.env.development` and a `.env.production` file in the root directory: <br> 
+```
 SPACE_ID=<Your Contentful Space ID>
-ACCESS_TOKEN=<Your Contentful ACCESS TOKEN>```
-5.Install the [Gatsby CLI](https://www.npmjs.com/package/gatsby):<br>`npm install -g gatsby-cli
-`
+ACCESS_TOKEN=<Your Contentful ACCESS TOKEN>
+```
+5. Install the [Gatsby CLI](https://www.npmjs.com/package/gatsby): <br> `npm install -g gatsby-cli`
 4. start the development server: <br>`gatsby development`
 
 That's it! The server should now be running on `http://localhost:8000/`.
