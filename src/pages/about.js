@@ -14,17 +14,23 @@ const About = () => (
         Currently working as a backend GO developer at Lendo.
         <br></br>
         <br></br>
-        My journey begins in 2014 when I got accepted to the bachelor program Computational Linguistics at Uppsala University.
-        In September 2017 I landed my first job as a computational linguist, building and maintaining an information extraction system.
+        My developer journey begins in 2014 when I started studying Computational Linguistics at Uppsala University. It’s during these years that I really come into contact with coding, but it wasn’t love at first sight. 
+        However, by the end of my studies, I gravitated towards coding more, and started taking more technical courses. But I wasn’t sure if I wanted to become a developer. September 2017, I landed my first job as a computational linguist, building and maintaining an information extraction system in the maritime business.
         <br></br>
         <br></br>
-        I became a conversational AI Developer in early 2018 for a company that builds chatbots for enterprises.
-        I was part of the Innovation & Community team, where I wrote how-to articles for new users, explored new technologies, and built community chatbots.
+        In early 2018, I transitioned into a role as a conversational AI Developer for a company that builds enterprise chatbots. 
+        I was part of the Innovation & Community team where I had a large spread of responsibilities, like writing how-to articles for new users, explored new technologies, did videos and built community chatbots. 
         <br></br>
         <br></br>
-        Throughout my career as a computational linguist I've come into close contact with software development, a passion I didn't know I had. 
-        So, in late 2020 I decided to apply to Salt to finally pursue my dream to switch fields and become a software developer. 
-        Out of 1500 other applicants, I got accepted into the spring 2021 boot camp and graduated after three months in late July.
+        As a conversational AI Developer, I came into close contact with software development, since I wrote programmatic logic for the chatbots, discuss with the developers, etc. 
+        Soon I found myself that I was teaching myself how to build web applications by doing courses online.
+        <br></br>
+        Essentially, developing grew into a passion.
+        <br></br>
+        <br></br>
+        December 2020, I applied to Salt. A JavaScript full stack bootcamp to pursue my dream, and become a software developer.
+
+        Out of 1500 applicants, I got accepted into the spring 2021 bootcamp and graduated after three months in late July.
       </p>
       <section className='profile-image-container'>
         <StaticImage className='profile-image' alt="an image of me" src='../images/profile-image.png'/>
