@@ -11,7 +11,7 @@ const About = () => (
     <div className='about-container'>
       <h1 className='title'>My journey</h1>
       <p className='bio'> 
-        Currently working as a fullstack JavaScript developer at Salt.
+        Currently working as a backend GO developer at Lendo.
         <br></br>
         <br></br>
         My journey begins in 2014 when I got accepted to the bachelor program Computational Linguistics at Uppsala University.
@@ -60,6 +60,10 @@ const About = () => (
         <h2 className='knowledge__category'>Backend</h2>
         <div className='skills'>
           <div className='skill'>
+            <StaticImage src='../images/gopher.png' className='skill__image'/>
+            <p className='skill__title'>GO</p>
+          </div>
+          <div className='skill'>
             <StaticImage src='../images/nodejs.png' className='skill__image'/>
             <p className='skill__title'>NodeJS</p>
           </div>
@@ -91,7 +95,6 @@ const About = () => (
             <StaticImage src='../images/heroku.png' className='skill__image'/>
             <p className='skill__title'>Heroku</p>
           </div>
-      
           <div className='skill'>
             <StaticImage src='../images/agile.png' className='skill__image'/>
             <p className='skill__title'>Agile</p>
