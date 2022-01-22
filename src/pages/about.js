@@ -24,63 +24,63 @@ const About = () => (
         <br></br>
         Throughout my career as a computational linguist I've come into close contact with software development, a passion I didn't know I had. 
         So, in late 2020 I decided to apply to Salt to finally pursue my dream to switch fields and become a software developer. 
-        Out of 1500 other applicants, I got accepted into the spring 2021 boot camp and graduated three months later in July.
+        Out of 1500 other applicants, I got accepted into the spring 2021 boot camp and graduated after three months in late July.
       </p>
       <section className='profile-image-container'>
-        <StaticImage className='profile-image' src='../images/profile-image.png'/>
+        <StaticImage className='profile-image' alt="an image of me" src='../images/profile-image.png'/>
       </section>
       <section className='skills-container'>
         <h2 className='knowledge__category'>Frontend</h2>
         <div className='skills'>
           <div className='skill'>
-            <StaticImage src='../images/javascript.png' className='skill__image'/>
+            <StaticImage src="../images/javascript.png" alt="A javascript icon"  className='skill__image'/>
             <p className='skill__title'>Javascript</p>
           </div>
           <div className='skill'>
-            <StaticImage src='../images/react.png' className='skill__image'/>
+            <StaticImage src='../images/react.png' alt="A react icon" className='skill__image'/>
             <p className='skill__title'>React</p>
           </div>
           <div className='skill'>
-            <StaticImage src='../images/gatsbyjs.png' className='skill__image'/>
+            <StaticImage src='../images/gatsbyjs.png' alt="A gatsby js icon" className='skill__image'/>
             <p className='skill__title'>Gatsby</p>
           </div>
           <div className='skill'>
-            <StaticImage src='../images/redux.png' className='skill__image'/>
+            <StaticImage src='../images/redux.png' alt="a redux icon" className='skill__image'/>
             <p className='skill__title'>Redux</p>
           </div>
           <div className='skill'>
-            <StaticImage src='../images/html5.png' className='skill__image'/>
+            <StaticImage src='../images/html5.png' alt="a html5 icon" className='skill__image'/>
             <p className='skill__title'>HTML</p>
           </div>
           <div className='skill'>
-            <StaticImage src='../images/css3.png' className='skill__image'/>
+            <StaticImage src='../images/css3.png' alt="a css3 icon" className='skill__image'/>
             <p className='skill__title'>CSS</p>
           </div>
         </div>
         <h2 className='knowledge__category'>Backend</h2>
         <div className='skills'>
           <div className='skill'>
-            <StaticImage src='../images/gopher.png' className='skill__image'/>
+            <StaticImage src='../images/gopher.png' alt="A gopher (GO mascot)" className='skill__image'/>
             <p className='skill__title'>GO</p>
           </div>
           <div className='skill'>
-            <StaticImage src='../images/nodejs.png' className='skill__image'/>
+            <StaticImage src='../images/nodejs.png' alt="a node js icon" className='skill__image'/>
             <p className='skill__title'>NodeJS</p>
           </div>
           <div className='skill'>
-            <StaticImage src='../images/mongodb.png' className='skill__image'/>
+            <StaticImage src='../images/mongodb.png' alt="a mongo db icon" className='skill__image'/>
             <p className='skill__title'>MongoDB</p>
           </div>
           <div className='skill'>
-            <StaticImage src='../images/postgresql.png' className='skill__image'/>
+            <StaticImage src='../images/postgresql.png' alt="a postgres icon" className='skill__image'/>
             <p className='skill__title'>Postgres</p>
           </div>
           <div className='skill'>
-            <StaticImage src='../images/graphql.png' className='skill__image'/>
+            <StaticImage src='../images/graphql.png' alt="a graphql icon" className='skill__image'/>
             <p className='skill__title'>GraphQL</p>
           </div>
           <div className='skill'>
-            <StaticImage src='../images/express.png' className='skill__image express-icon'/>
+            <StaticImage src='../images/express.png' alt="an express icon" className='skill__image express-icon'/>
             <p className='skill__title'>Express</p>
           </div>
         </div>
@@ -88,31 +88,31 @@ const About = () => (
         <h2 className='knowledge__category'>Tools</h2>
         <div className='skills'>
           <div className='skill'>
-            <StaticImage src='../images/serverless.png' className='skill__image'/>
+            <StaticImage src='../images/serverless.png' alt="a serverless icon" className='skill__image'/>
             <p className='skill__title'>Serverless</p>
           </div>
           <div className='skill'>
-            <StaticImage src='../images/heroku.png' className='skill__image'/>
+            <StaticImage src='../images/heroku.png' alt="a heroku icon" className='skill__image'/>
             <p className='skill__title'>Heroku</p>
           </div>
           <div className='skill'>
-            <StaticImage src='../images/agile.png' className='skill__image'/>
+            <StaticImage src='../images/agile.png' alt="an agile icon" className='skill__image'/>
             <p className='skill__title'>Agile</p>
           </div>
           <div className='skill'>
-            <StaticImage src='../images/TDD.png' className='skill__image'/>
+            <StaticImage src='../images/TDD.png' alt="a tdd icon" className='skill__image'/>
             <p className='skil__title'>TDD</p>
           </div>
           <div className='skill'>
-            <StaticImage src='../images/netlify.png' className='skill__image'/>
+            <StaticImage src='../images/netlify.png' alt="a netlify icon" className='skill__image'/>
             <p className='skill__title'>Netlify</p>
           </div>
           <div className='skill'>
-            <StaticImage src='../images/mocha.png' className='skill__image'/>
+            <StaticImage src='../images/mocha.png' alt="a mocha icon" className='skill__image'/>
             <p className='skill__title'>Mocha</p>
           </div>
           <div className='skill'>
-            <StaticImage src='../images/jest.png' className='skill__image'/>
+            <StaticImage src='../images/jest.png' alt="a jest icon" className='skill__image'/>
             <p className='skill__title'>Jest</p>
           </div>
         </div>
