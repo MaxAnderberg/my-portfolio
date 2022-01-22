@@ -18,7 +18,7 @@ In order to make the process as smooth as possible I suggest that you start with
 2. Now you will need a content model that looks something like this: <br> <img src="/images/Screenshot 2021-09-14 at 14.51.24.png"/>
 3. Find the Space id and your access token for this space in settings and save these somewhere handy, you'll need them in a minute
 
-!!! Note that you will have to create posts in contentful in order for the portfolio page to be able to display anything
+> Note that you will have to create posts in contentful in order for the portfolio page to be able to display anything.
 
 Now that you got contentful up and running you can start setting up your local development:
 

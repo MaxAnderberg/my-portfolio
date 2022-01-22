@@ -38,14 +38,15 @@ const IndexPage = () => {
       <div className="item-a">
         <div className="slideshow-container">
           <div className="slideshow-slider" style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}>
-            <StaticImage className='slide' src="../images/javascript.png" alt=""/>
-            <StaticImage className='slide' src="../images/react.png" alt=""/>
-            <StaticImage className='slide' src="../images/nodejs.png" alt=""/>
-            <StaticImage className='slide' src="../images/gatsbyjs.png" alt=""/>
-            <StaticImage className='slide' src="../images/html5.png" alt=""/>
-            <StaticImage className='slide' src="../images/css3.png" alt=""/>
-            <StaticImage className='slide' src="../images/mongodb.png" alt=""/>
-            <StaticImage className='slide' src="../images/mocha.png" alt=""/>
+            <StaticImage className='slide' src="../images/gopher.png" alt="go mascot"/>
+            <StaticImage className='slide' src="../images/javascript.png" alt="javascript"/>
+            <StaticImage className='slide' src="../images/react.png" alt="react"/>
+            <StaticImage className='slide' src="../images/nodejs.png" alt="node"/>
+            <StaticImage className='slide' src="../images/gatsbyjs.png" alt="gatsby js"/>
+            <StaticImage className='slide' src="../images/html5.png" alt="html5"/>
+            <StaticImage className='slide' src="../images/css3.png" alt="css3"/>
+            <StaticImage className='slide' src="../images/mongodb.png" alt="mongo db"/>
+            <StaticImage className='slide' src="../images/mocha.png" alt="mocha"/>
           </div>
         </div>
       </div>
