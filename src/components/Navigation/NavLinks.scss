@@ -86,6 +86,17 @@
   }
 }
 
+.disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+  pointer-events: none;
+}
+
+.dropdown > .navlinks-container > .navlink {
+  font-size: 1.35rem;
+}
+
 @media only screen and (min-width: 1024px) {
   .navlinks-container {
     display: flex;
