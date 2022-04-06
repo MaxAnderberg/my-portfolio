@@ -13,10 +13,7 @@ const Portfolio = ({ data }) => {
       <Seo title="Portfolio" />
       <div className='portfolio-container'>
         <section className='portfolio__text'>
-          <h1 className='portfolio__title'>Projects</h1>
-          <p className='portfolio__description'>
-            Check out my latest web applications
-          </p>
+          <h1 className='portfolio__title'>RECENT WORK</h1>
         </section>
 
         {nodes.map(item => 
