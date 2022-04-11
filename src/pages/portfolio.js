@@ -16,9 +16,10 @@ const Portfolio = ({ data }) => {
           <h1 className='portfolio__title'>RECENT WORK</h1>
         </section>
 
-        {nodes.map(item => 
-          <Project 
-            description={item.node.description.description} 
+        {nodes.map(item =>
+          <Project
+            key={item.node.title.toString()}
+            description={item.node.description.description}
             image={item.node.image.fluid.src} 
             title={item.node.title}
             githubLink={item.node.githubLink} 
