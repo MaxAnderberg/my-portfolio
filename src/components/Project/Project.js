@@ -44,8 +44,8 @@ const Project = ( props ) => {
         </section>
         <p className='card__description'>{description}</p>
         <section className='card__link-container'>
-        <motion.a variants={onHoverVariants} whileHover="hover" transition={{type: 'spring', stiffness:300, bounce: 0.75}} className='card__external-link' href={deploymentLink} > <StaticImage className='card__link-image' src='../../images/globe.png' alt="A globe icon"/>Demo</motion.a>
-        <motion.a variants={onHoverVariants}  whileHover="hover" transition={{type: 'spring', stiffness:300, bounce: 0.75}} className='card__external-link' href={githubLink} ><StaticImage className='card__link-image' src='../../images/coding.png' alt="A coding icon"/> Code</motion.a>
+          <motion.a variants={onHoverVariants} whileHover="hover" transition={{type: 'spring', stiffness:300, bounce: 0.75}} className='card__external-link' href={deploymentLink} > <StaticImage className='card__link-image' src="../../images/globe-logo.png" alt="A globe icon"/>Demo</motion.a>
+          <motion.a variants={onHoverVariants}  whileHover="hover" transition={{type: 'spring', stiffness:300, bounce: 0.75}} className='card__external-link' href={githubLink} > <StaticImage className='card__link-image' src='../../images/coding-logo.png' alt="A coding icon"/> Code</motion.a>
         </section>
       </section>
     </article>
